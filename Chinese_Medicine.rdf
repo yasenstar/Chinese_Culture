@@ -1,0 +1,193 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56/"
+     xml:base="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#世界中医学专业核心课程教材 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#世界中医学专业核心课程教材">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#著作与文献"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#法律法规 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#法律法规">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#著作与文献"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#著作与文献 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#著作与文献"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《中医儿科学》 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《中医儿科学》">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#世界中医学专业核心课程教材"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《中医内科学》 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《中医内科学》">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#世界中医学专业核心课程教材"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《中医基础理论》 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《中医基础理论》">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#世界中医学专业核心课程教材"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《中医妇科学》 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《中医妇科学》">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#世界中医学专业核心课程教材"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《中医诊断学》 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《中医诊断学》">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#世界中医学专业核心课程教材"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《中华人民共和国中医药法》 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《中华人民共和国中医药法》">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#法律法规"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《中药学》 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《中药学》">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#世界中医学专业核心课程教材"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《伤寒论选读》 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《伤寒论选读》">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#世界中医学专业核心课程教材"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《推拿学》 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《推拿学》">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#世界中医学专业核心课程教材"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《方剂学》 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《方剂学》">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#世界中医学专业核心课程教材"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《温病学》 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《温病学》">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#世界中医学专业核心课程教材"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《金匮要略选读》 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《金匮要略选读》">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#世界中医学专业核心课程教材"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《针灸学》 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《针灸学》">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#世界中医学专业核心课程教材"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《黄帝内经选读》 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《黄帝内经选读》">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#世界中医学专业核心课程教材"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《世界中医学本科(CMD前)教育标准》 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《世界中医学本科(CMD前)教育标准》">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#法律法规"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label>中医</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
