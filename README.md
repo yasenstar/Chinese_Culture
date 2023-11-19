@@ -10,6 +10,10 @@ Ontology analysis on Traditional Chinese Medicine (theory, prescription, materia
 2. 经典教材：《内经讲义》（包含：《内经选读》、《伤寒论选读》、《金匮要略》）、《温病学》、《伤寒论讲义》、《金匮要略讲义》
 3. 临床教材：《中医内科学》、《中医外科学》、《中医妇科学》、《中医儿科学》、《中医耳鼻喉科学》、《中医眼科学》
 
+Using Protege, below is the snapshot (date: 2023/11/19)
+
+![snapshot](/img/cn_med_ontology_export.graph)
+
 ---
 
 希望和大家共同学习探讨，欢迎[邮件联络](mailto:xiaoqizhao@outlook.com)。
