@@ -12,7 +12,7 @@ Ontology analysis on Traditional Chinese Medicine (theory, prescription, materia
 
 Using Protege, below is the snapshot (date: 2023/11/19)
 
-![snapshot](/img/cn_med_ontology_export.graph)
+![snapshot](/img/cn_med_ontology_export.png)
 
 ---
 
