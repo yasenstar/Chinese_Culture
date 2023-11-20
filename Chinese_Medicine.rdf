@@ -1375,6 +1375,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#文蛤">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#上虫、鱼"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鳞部、介部"/>
     </owl:Class>
     
 
@@ -3363,6 +3364,15 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#牡蛎">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#上虫、鱼"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鳞部、介部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#牡蛎-肉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#牡蛎-肉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#牡蛎"/>
     </owl:Class>
     
 
@@ -3922,6 +3932,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#石蜜">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#上虫、鱼"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#石蟹 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#石蟹">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#蟹"/>
     </owl:Class>
     
 
@@ -5200,6 +5218,38 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#虾 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#虾">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鳞部、介部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#蚌 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#蚌">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鳞部、介部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#蚌-肉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#蚌-肉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#蚌"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#蚌-蚌粉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#蚌-蚌粉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#蚌"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#蚕豆 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#蚕豆">
@@ -5312,6 +5362,30 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#蜗螺 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#蜗螺">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鳞部、介部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#蜗螺-烂壳 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#蜗螺-烂壳">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#蜗螺"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#蜗螺-肉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#蜗螺-肉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#蜗螺"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#蜚fei1虻meng2 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#蜚fei1虻meng2">
@@ -5360,6 +5434,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#蝤qiu2蛑mou2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#蝤qiu2蛑mou2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#蟹"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#蝼蛄 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#蝼蛄">
@@ -5368,10 +5450,43 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#蟛蜞 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#蟛蜞">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#蟹"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#蟹 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#蟹">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#中虫、鱼"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鳞部、介部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#蟹-壳 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#蟹-壳">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#蟹"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#蟹-盐蟹汁 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#蟹-盐蟹汁">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#蟹"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#蟹爪 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#蟹爪">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#蟹"/>
     </owl:Class>
     
 
@@ -6008,6 +6123,30 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#青鱼 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#青鱼">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鳞部、介部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#青鱼-肉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#青鱼-肉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#青鱼"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#青鱼-胆 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#青鱼-胆">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#青鱼"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#靡芜 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#靡芜">
@@ -6097,10 +6236,204 @@
     
 
 
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲤鱼胆 -->
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲈鱼 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲤鱼胆">
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲈鱼">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鳞部、介部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲈鱼-肉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲈鱼-肉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲈鱼"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲋鱼 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲋鱼">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲫鱼"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鳞部、介部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲍鱼 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲍鱼">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鳞部、介部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲍鱼-头 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲍鱼-头">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲍鱼"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲍鱼-穿鲍绳 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲍鱼-穿鲍绳">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲍鱼"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲍鱼-肉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲍鱼-肉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲍鱼"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲍鱼-鱼子 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲍鱼-鱼子">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲍鱼"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲤鱼 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲤鱼">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鳞部、介部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲤鱼-皮 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲤鱼-皮">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲤鱼"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲤鱼-目 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲤鱼-目">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲤鱼"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲤鱼-肉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲤鱼-肉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲤鱼"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲤鱼-胆 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲤鱼-胆">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#上虫、鱼"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲤鱼"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲤鱼-脂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲤鱼-脂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲤鱼"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲤鱼-脑髓 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲤鱼-脑髓">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲤鱼"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲤鱼-血 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲤鱼-血">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲤鱼"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲤鱼-骨 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲤鱼-骨">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲤鱼"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲤鱼-鳞 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲤鱼-鳞">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲤鱼"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲤鱼-齿 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲤鱼-齿">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲤鱼"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲫鱼 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲫鱼">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鳞部、介部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲫鱼-头 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲫鱼-头">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲫鱼"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲫鱼-肉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲫鱼-肉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲫鱼"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲫鱼-胆 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲫鱼-胆">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲫鱼"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲫鱼-脑 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲫鱼-脑">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲫鱼"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲫鱼-骨 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲫鱼-骨">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鲫鱼"/>
     </owl:Class>
     
 
@@ -6109,6 +6442,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鳖甲">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#中虫、鱼"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鳞部、介部 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鳞部、介部">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#本草纲目"/>
     </owl:Class>
     
 
@@ -6371,6 +6712,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#？竹茹">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#竹"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#？鱼。泥鳅 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#？鱼。泥鳅">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鳞部、介部"/>
     </owl:Class>
     
 
