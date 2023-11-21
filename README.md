@@ -22,7 +22,10 @@ Here you can view the ontology via WebVOWL: [link](https://service.tib.eu/webvow
 
 ---
 
-Video links will be published here ([YouTube](https://www.youtube.com/playlist?list=PL6DEHvciXKeXxvfG6fZzythByHxKzc64G))
+Video links will be published here:
+
+- [YouTube](https://www.youtube.com/playlist?list=PL6DEHvciXKeXxvfG6fZzythByHxKzc64G)
+- [西瓜视频](https://www.ixigua.com/7303975536609460777?&&id=7303967975441170970)
 
 ---
 
