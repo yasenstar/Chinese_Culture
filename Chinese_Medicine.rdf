@@ -5,8 +5,7 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:untitled-ontology-56="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56"/>
     
 
@@ -31,12 +30,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#belongsTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#belongsTo">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#includes"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#includes -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#includes">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#方剂"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#药材"/>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#includes"/>
     
 
 
@@ -76,6 +80,630 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《三因极一病证方论》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《三因极一病证方论》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《中医儿科学》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《中医儿科学》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#世界中医学专业核心课程教材"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《中医内科学》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《中医内科学》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#世界中医学专业核心课程教材"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《中医基础理论》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《中医基础理论》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#世界中医学专业核心课程教材"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《中医妇科学》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《中医妇科学》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#世界中医学专业核心课程教材"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《中医诊断学》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《中医诊断学》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#世界中医学专业核心课程教材"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《中华人民共和国中医药法》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《中华人民共和国中医药法》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#法律法规"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《中药学》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《中药学》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#世界中医学专业核心课程教材"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《丹溪心法》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《丹溪心法》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《五十二病方》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《五十二病方》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《伤寒明理药方论》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《伤寒明理药方论》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《伤寒杂病论》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《伤寒杂病论》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《伤寒论》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《伤寒论》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《伤寒论选读》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《伤寒论选读》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#世界中医学专业核心课程教材"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《伤寒论集注》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《伤寒论集注》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《儒门事亲》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《儒门事亲》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《全生指迷方》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《全生指迷方》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《内外伤辨惑论》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《内外伤辨惑论》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《刘涓子鬼遗方》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《刘涓子鬼遗方》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《医学新悟》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《医学新悟》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《医学起源》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《医学起源》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《医方考》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《医方考》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《医方集解》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《医方集解》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《千金翼方》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《千金翼方》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《古今名医方论》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《古今名医方论》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《名医别录》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《名医别录》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《周礼.考工记》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《周礼.考工记》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《嘉佑本草》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《嘉佑本草》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《圣济总录》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《圣济总录》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《备急千金要方》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《备急千金要方》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《太平圣惠方》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《太平圣惠方》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《太平惠民和剂局方》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《太平惠民和剂局方》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《妇人大全良方》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《妇人大全良方》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《孟子.离娄上》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《孟子.离娄上》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《小儿药证直诀》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《小儿药证直诀》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《小品方》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《小品方》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《庄子.逍遥游》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《庄子.逍遥游》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《开宝本草》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《开宝本草》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《成方便读》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《成方便读》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《推拿学》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《推拿学》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#世界中医学专业核心课程教材"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《新修本草》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《新修本草》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《方剂学》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《方剂学》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#世界中医学专业核心课程教材"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《是斋百一选方》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《是斋百一选方》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《普济方》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《普济方》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《普济本事方》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《普济本事方》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《景岳全书》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《景岳全书》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《本草纲目》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《本草纲目》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《本草经集注》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《本草经集注》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《格致余论》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《格致余论》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《梁书.陆襄传》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《梁书.陆襄传》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《汉书.艺文志.方技略》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《汉书.艺文志.方技略》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《汉书.艺文志》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《汉书.艺文志》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《汤头歌诀》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《汤头歌诀》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《济生方》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《济生方》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《深师》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《深师》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《温热论》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《温热论》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《温病学》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《温病学》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#世界中医学专业核心课程教材"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《温病条辨》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《温病条辨》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《疫疹一得》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《疫疹一得》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《祖剂》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《祖剂》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《神农本草经》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《神农本草经》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《素问玄机原病式》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《素问玄机原病式》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《素问病机气宜保命集》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《素问病机气宜保命集》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《绛雪园古方选注》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《绛雪园古方选注》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《肘后备急方》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《肘后备急方》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《脾胃论》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《脾胃论》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《论衡.定贤》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《论衡.定贤》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《证类本草》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《证类本草》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《金匮要略》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《金匮要略》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《金匮要略方论衍义》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《金匮要略方论衍义》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《金匮要略选读》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《金匮要略选读》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#世界中医学专业核心课程教材"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《金镜内台方议》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《金镜内台方议》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《针灸学》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《针灸学》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#世界中医学专业核心课程教材"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《针灸甲乙经.序》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《针灸甲乙经.序》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《集验》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《集验》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《黄帝内经》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《黄帝内经》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《黄帝内经选读》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《黄帝内经选读》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#世界中医学专业核心课程教材"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《黄帝素问宣明论方》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《黄帝素问宣明论方》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
+    </owl:Class>
     
 
 
@@ -1533,6 +2161,12 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#本草纲目">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#药材"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#sourceFrom"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《本草纲目》"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -1541,6 +2175,12 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#本草经上经-君药">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#药材"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#sourceFrom"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《神农本草经》"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -1549,6 +2189,12 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#本草经下经-左使药">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#药材"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#sourceFrom"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《神农本草经》"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -1557,6 +2203,12 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#本草经中经-臣药">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#药材"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#sourceFrom"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《神农本草经》"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -5741,6 +6393,13 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#解表剂">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#方剂"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#belongsTo"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#汗法"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>凡以发汗、解肌、透疹等作用为主，用于治疗表证的方剂，统称为解表剂。</rdfs:isDefinedBy>
     </owl:Class>
     
 
@@ -7267,6 +7926,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《世界中医学本科(CMD前)教育标准》 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《世界中医学本科(CMD前)教育标准》">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#法律法规"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#小麦-麦(麦少) -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#小麦-麦(麦少)">
@@ -7342,631 +8009,10 @@
     
 
 
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《三因极一病证方论》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《三因极一病证方论》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《中医儿科学》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《中医儿科学》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#世界中医学专业核心课程教材"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《中医内科学》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《中医内科学》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#世界中医学专业核心课程教材"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《中医基础理论》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《中医基础理论》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#世界中医学专业核心课程教材"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《中医妇科学》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《中医妇科学》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#世界中医学专业核心课程教材"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《中医诊断学》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《中医诊断学》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#世界中医学专业核心课程教材"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《中华人民共和国中医药法》 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《中华人民共和国中医药法》">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#法律法规"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《中药学》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《中药学》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#世界中医学专业核心课程教材"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《丹溪心法》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《丹溪心法》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《五十二病方》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《五十二病方》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《伤寒明理药方论》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《伤寒明理药方论》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《伤寒杂病论》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《伤寒杂病论》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《伤寒论》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《伤寒论》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《伤寒论选读》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《伤寒论选读》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#世界中医学专业核心课程教材"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《伤寒论集注》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《伤寒论集注》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《儒门事亲》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《儒门事亲》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《全生指迷方》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《全生指迷方》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《内外伤辨惑论》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《内外伤辨惑论》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《刘涓子鬼遗方》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《刘涓子鬼遗方》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《医学新悟》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《医学新悟》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《医学起源》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《医学起源》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《医方考》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《医方考》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《医方集解》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《医方集解》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《千金翼方》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《千金翼方》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《古今名医方论》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《古今名医方论》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《名医别录》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《名医别录》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《周礼.考工记》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《周礼.考工记》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《嘉佑本草》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《嘉佑本草》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《圣济总录》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《圣济总录》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《备急千金要方》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《备急千金要方》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《太平圣惠方》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《太平圣惠方》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《太平惠民和剂局方》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《太平惠民和剂局方》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《妇人大全良方》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《妇人大全良方》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《孟子.离娄上》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《孟子.离娄上》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《小儿药证直诀》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《小儿药证直诀》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《小品方》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《小品方》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《庄子.逍遥游》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《庄子.逍遥游》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《开宝本草》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《开宝本草》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《成方便读》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《成方便读》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-        <rdfs:comment>上中下三品来源于《神农本草经》</rdfs:comment>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《推拿学》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《推拿学》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#世界中医学专业核心课程教材"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《新修本草》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《新修本草》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《方剂学》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《方剂学》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#世界中医学专业核心课程教材"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《是斋百一选方》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《是斋百一选方》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《普济方》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《普济方》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《普济本事方》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《普济本事方》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《景岳全书》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《景岳全书》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《本草纲目》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《本草纲目》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《本草经集注》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《本草经集注》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《格致余论》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《格致余论》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《梁书.陆襄传》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《梁书.陆襄传》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-        <untitled-ontology-56:authoredBy rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#姚思廉-唐朝"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《汉书.艺文志.方技略》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《汉书.艺文志.方技略》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《汉书.艺文志》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《汉书.艺文志》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《汤头歌诀》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《汤头歌诀》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《济生方》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《济生方》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《深师》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《深师》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《温热论》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《温热论》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《温病学》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《温病学》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#世界中医学专业核心课程教材"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《温病条辨》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《温病条辨》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《疫疹一得》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《疫疹一得》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《祖剂》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《祖剂》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《神农本草经》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《神农本草经》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《素问玄机原病式》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《素问玄机原病式》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《素问病机气宜保命集》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《素问病机气宜保命集》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《绛雪园古方选注》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《绛雪园古方选注》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《肘后备急方》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《肘后备急方》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《脾胃论》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《脾胃论》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《论衡.定贤》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《论衡.定贤》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-        <untitled-ontology-56:authoredBy rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#王充-汉朝"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《证类本草》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《证类本草》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-        <rdfs:comment>因表里寒热虚实等病情复杂多端，常需数法合用，即所谓“一法之中，八法备焉；八法之中，百法备焉”（《医学心悟》）</rdfs:comment>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《金匮要略》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《金匮要略》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《金匮要略方论衍义》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《金匮要略方论衍义》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《金匮要略选读》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《金匮要略选读》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#世界中医学专业核心课程教材"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《金镜内台方议》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《金镜内台方议》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《针灸学》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《针灸学》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#世界中医学专业核心课程教材"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《针灸甲乙经.序》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《针灸甲乙经.序》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《集验》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《集验》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《黄帝内经》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《黄帝内经》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《黄帝内经选读》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《黄帝内经选读》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#世界中医学专业核心课程教材"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《黄帝素问宣明论方》 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《黄帝素问宣明论方》">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古籍"/>
-        <rdfs:seeAlso>又名《宣名论方》</rdfs:seeAlso>
     </owl:NamedIndividual>
     
 
@@ -7991,7 +8037,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#“襄母卒患心痛，医方需三升粟浆......忽有老人诣门货浆，量如方剂”">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#方剂方面"/>
-        <untitled-ontology-56:sourceFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《梁书.陆襄传》"/>
         <rdfs:comment>“方剂”一词的最早说法</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -8001,7 +8046,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#“譬医之治病也......方施而药行。”">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#方剂方面"/>
-        <untitled-ontology-56:sourceFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《论衡.定贤》"/>
     </owl:NamedIndividual>
     
 
