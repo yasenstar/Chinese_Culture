@@ -1405,14 +1405,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古镜 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#古镜">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#金石部"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#合欢 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#合欢">
@@ -1683,14 +1675,6 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#安神剂">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#方剂"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#宝石 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#宝石">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#金石部"/>
     </owl:Class>
     
 
@@ -2081,14 +2065,6 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#旋复花">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#下草"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#无色石英 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#无色石英">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#金石部"/>
     </owl:Class>
     
 
@@ -3420,14 +3396,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#水晶 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#水晶">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#金石部"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#水苏 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#水苏">
@@ -4232,30 +4200,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#玛瑙 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#玛瑙">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#金石部"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#玻璃 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#玻璃">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#金石部"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#珊瑚 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#珊瑚">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#金石部"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#班苗 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#班苗">
@@ -4284,14 +4228,6 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#理血剂">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#方剂"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#琉璃 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#琉璃">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#金石部"/>
     </owl:Class>
     
 
@@ -4492,12 +4428,6 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#白石英">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#上玉、石"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#belongsTo"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#金石部"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -5068,12 +4998,6 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#紫石英">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#上玉、石"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#belongsTo"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#金石部"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -6488,14 +6412,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#诸铜器 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#诸铜器">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#金石部"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#调和寒热剂 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#调和寒热剂">
@@ -6680,22 +6596,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#赤铜 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#赤铜">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#金石部"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#赤铜-赤铜屑 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#赤铜-赤铜屑">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#赤铜"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#车前子 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#车前子">
@@ -6848,50 +6748,10 @@
     
 
 
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#金 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#金">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#金石部"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#金-金屑 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#金-金屑">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#金"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#金-金浆 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#金-金浆">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#金"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#金石部 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#金石部">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#本草纲目"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#钩吻 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#钩吻">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#下草"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#铁 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#铁">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#金石部"/>
     </owl:Class>
     
 
@@ -6904,59 +6764,10 @@
     
 
 
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#铅 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#铅">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#金石部"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#铅丹 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#铅丹">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#下玉、石"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#金石部"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#银 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#银">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#金石部"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#银-生银 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#银-生银">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#银"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#银-银屑 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#银-银屑">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#银"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#银-银箔 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#银-银箔">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#银"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#锡 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#锡">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#金石部"/>
     </owl:Class>
     
 
@@ -8031,14 +7842,6 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#黑芝">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#上草"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#黑锡灰 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#黑锡灰">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#金石部"/>
     </owl:Class>
     
 
