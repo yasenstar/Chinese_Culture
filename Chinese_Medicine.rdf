@@ -5710,6 +5710,30 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#狮-屎 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#狮-屎">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#狮、狻猊"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#狮-肉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#狮-肉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#狮、狻猊"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#狮、狻猊 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#狮、狻猊">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#兽类"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#狼毒 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#狼毒">
@@ -8305,6 +8329,126 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#藿菌">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#菜部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#虎 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#虎">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#兽类"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#虎-头骨 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#虎-头骨">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#虎"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#虎-屎 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#虎-屎">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#虎"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#虎-爪 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#虎-爪">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#虎"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#虎-牙 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#虎-牙">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#虎"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#虎-皮 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#虎-皮">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#虎"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#虎-睛 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#虎-睛">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#虎"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#虎-肉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#虎-肉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#虎"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#虎-肾 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#虎-肾">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#虎"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#虎-胆 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#虎-胆">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#虎"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#虎-虎魄、琥珀 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#虎-虎魄、琥珀">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#虎"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#虎-血 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#虎-血">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#虎"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#虎-须 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#虎-须">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#虎"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#虎-骨 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#虎-骨">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#虎"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#虎-鼻 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#虎-鼻">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#虎"/>
     </owl:Class>
     
 
