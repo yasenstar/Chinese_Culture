@@ -1954,6 +1954,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#刀豆 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#刀豆">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#谷部"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#利水渗湿剂 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#利水渗湿剂">
@@ -2453,6 +2461,38 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#大豆 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#大豆">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#谷部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#大豆叶 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#大豆叶">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#大豆"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#大豆皮 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#大豆皮">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#大豆"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#大豆花 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#大豆花">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#大豆"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#大豆黄卷、生大豆、赤小豆 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#大豆黄卷、生大豆、赤小豆">
@@ -2743,6 +2783,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#寒具 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#寒具">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#谷部"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#寒泉水 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#寒泉水">
@@ -2763,6 +2811,22 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#寒莓-苗、叶">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#寒莓"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#寒食粥 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#寒食粥">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#飧饭"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#寒食饭 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#寒食饭">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#谷部"/>
     </owl:Class>
     
 
@@ -3198,6 +3262,38 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#戎盐">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#下玉、石"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#扁豆 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#扁豆">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#谷部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#扁豆-叶 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#扁豆-叶">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#扁豆"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#扁豆-花 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#扁豆-花">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#扁豆"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#扁豆-藤 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#扁豆-藤">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#扁豆"/>
     </owl:Class>
     
 
@@ -4902,6 +4998,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#毛豆 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#毛豆">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#谷部"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#气血双补剂 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#气血双补剂">
@@ -5253,6 +5357,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#河豚-肝及子">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#河豚"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#油堆 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#油堆">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#谷部"/>
     </owl:Class>
     
 
@@ -8032,6 +8144,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#白豆 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#白豆">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#谷部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#白豆-叶 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#白豆-叶">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#白豆"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#白青 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#白青">
@@ -8133,6 +8261,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#皂荚">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#下木"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#盆边零饭 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#盆边零饭">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#寒食饭"/>
     </owl:Class>
     
 
@@ -8402,6 +8538,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#祀灶饭 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#祀灶饭">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#寒食饭"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#祛湿剂 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#祛湿剂">
@@ -8644,6 +8788,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#稻蘗bo4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#稻蘗bo4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#谷部"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#空青 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#空青">
@@ -8846,6 +8998,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#粉皮 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#粉皮">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#谷部"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#粉锡 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#粉锡">
@@ -8926,6 +9086,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#粟蘗bo4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#粟蘗bo4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#谷部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#粢zi1糕 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#粢zi1糕">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#糕"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#粳jing1 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#粳jing1">
@@ -8938,6 +9114,22 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#粳米">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#粳jing1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#粳米籼xian1米粟米梁米粥 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#粳米籼xian1米粟米梁米粥">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#飧饭"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#粳糕 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#粳糕">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#糕"/>
     </owl:Class>
     
 
@@ -8958,6 +9150,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#糕 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#糕">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#谷部"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#糖浆剂 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#糖浆剂">
@@ -8970,6 +9170,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#糟笋节中酒">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#酒"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#索粉 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#索粉">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#谷部"/>
     </owl:Class>
     
 
@@ -9144,6 +9352,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#绿豆-叶 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#绿豆-叶">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#绿豆"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#绿豆-皮 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#绿豆-皮">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#绿豆"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#绿豆-绿豆粉 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#绿豆-绿豆粉">
@@ -9152,33 +9376,17 @@
     
 
 
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#绿豆-豆叶 -->
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#绿豆-花 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#绿豆-豆叶">
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#绿豆-花">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#绿豆"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#绿豆-豆皮 -->
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#绿豆-荚 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#绿豆-豆皮">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#绿豆"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#绿豆-豆花 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#绿豆-豆花">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#绿豆"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#绿豆-豆荚 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#绿豆-豆荚">
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#绿豆-荚">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#绿豆"/>
     </owl:Class>
     
@@ -10178,6 +10386,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#荷叶烧饭 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#荷叶烧饭">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#飧饭"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#莨lang4荡子 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#莨lang4荡子">
@@ -10613,6 +10829,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#蒸饼 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#蒸饼">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#谷部"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#蒺藜子 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#蒺藜子">
@@ -10777,6 +11001,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#藿菌">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#菜部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#蘗bo4米 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#蘗bo4米">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#谷部"/>
     </owl:Class>
     
 
@@ -11270,6 +11502,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#蜂子">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#上虫、鱼"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#蜂糕 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#蜂糕">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#谷部"/>
     </owl:Class>
     
 
@@ -11772,6 +12012,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#谷部">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#《本草纲目》"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#豆炙zhi4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#豆炙zhi4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#谷部"/>
     </owl:Class>
     
 
@@ -12297,6 +12545,30 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#赤豆 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#赤豆">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#谷部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#赤豆-叶 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#赤豆-叶">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#赤豆"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#赤豆-芽 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#赤豆-芽">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#赤豆"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#赤铜 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#赤铜">
@@ -12518,6 +12790,30 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#酒">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#谷部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#酒曲 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#酒曲">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#谷部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#酒曲-大麦曲 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#酒曲-大麦曲">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#酒曲"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#酒曲-小麦曲 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#酒曲-小麦曲">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#酒曲"/>
     </owl:Class>
     
 
@@ -12970,6 +13266,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#陆英">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#下草"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#陈廪lin3米 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#陈廪lin3米">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#谷部"/>
     </owl:Class>
     
 
@@ -13432,9 +13736,49 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#飧饭 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#飧饭">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#谷部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#饭 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#饭">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#谷部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#饭-新炊饭 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#饭-新炊饭">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#饭"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#饴糖 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#饴糖">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#谷部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#馄饨 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#馄饨">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#谷部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#馒头 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#馒头">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#谷部"/>
     </owl:Class>
     
@@ -16201,6 +16545,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#黎豆 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#黎豆">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#谷部"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#黑大豆 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#黑大豆">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#大豆"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#黑芝 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#黑芝">
@@ -16445,6 +16805,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鼹鼠-膏">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#鼹鼠"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#齿中残饭 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#齿中残饭">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/10/untitled-ontology-56#寒食饭"/>
     </owl:Class>
     
 
