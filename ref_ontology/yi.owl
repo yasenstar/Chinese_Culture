@@ -1,0 +1,3541 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="https://purl.archive.org/domain/yi"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="https://purl.archive.org/domain/yi">
+    <Prefix name="" IRI="https://purl.archive.org/domain/yi"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#五行"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#四时"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#地支"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#天干"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#太极"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#节气"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#0-坤（阴）"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#00-老阴-冬"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#000-坤-地"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#000-000-坤-坤下坤上-02"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#000-001-剥-坤下艮上-23"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#000-010-比-坤下坎上-08"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#000-011-观-坤下巽上-20"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#000-100-豫-坤下震上-16"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#000-101-晋-坤下离上-35"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#000-110-萃-坤下兑上-45"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#000-111-否-坤下乾上-12"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#001-艮-山"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#001-000-谦-艮下坤上-15"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#001-001-艮-艮下艮上-52"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#001-010-蹇-艮下坎上-39"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#001-011-渐-艮下巽上-53"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#001-100-小过-艮下震上-62"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#001-101-旅-艮下离上-56"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#001-110-咸-艮下兑上-31"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#001-111-遯-艮下乾上-33"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#01-子"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#01-少阳-春"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#01-甲"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#01-立春"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#010-坎-水（云）"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#010-000-师-坎下坤上-07"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#010-001-蒙-坎下艮上-04"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#010-010-坎-坎下坎上-29"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#010-011-涣-坎下巽上-59"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#010-100-解-坎下震上-40"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#010-101-未济-坎下离上-64"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#010-110-困-坎下兑上-47"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#010-111-讼-坎下乾上-06"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#011-巽-风"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#011-000-升-巽下坤上-46"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#011-001-蛊-巽下艮上-18"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#011-010-井-巽下坎上-48"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#011-011-巽-巽下巽上-57"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#011-100-恒-巽下震上-32"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#011-101-鼎-巽下离上-50"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#011-110-大过-巽下兑上-28"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#011-111-姤-巽下乾上-44"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#02-丑"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#02-乙"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#02-雨水"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#03-丙"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#03-寅"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#03-惊蛰"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#04-丁"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#04-卯"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#04-春分"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#05-戊"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#05-清明"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#05-辰"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#06-己"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#06-巳"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#06-谷雨"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#07-午"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#07-庚"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#07-立夏"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#08-小满"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#08-未"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#08-辛"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#09-壬"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#09-申"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#09-芒种"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#1-乾（阳）"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#1-初九-同人于门，无咎。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#1-初九-壮于趾，征凶有孚。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#1-初九-复自道，何其咎，吉"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#1-初九-官有渝，贞吉，出门交有功。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#1-初九-拔茅茹，以其汇征，吉"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#1-初九-无交害，匪咎，艰则无咎。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#1-初九-潜龙勿用"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#1-初九-素履往，无咎"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#1-初九-需于郊，利用恒，无咎"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#1-初六-不永所事，小有言，终吉"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#1-初六-发蒙，利用刑人，用说桎梏，以往，吝"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#1-初六-履霜坚冰至"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#1-初六-师出以律，否臧凶"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#1-初六-干父之蛊，有子，考无咎，厉终吉。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#1-初六-拔茅茹，以其汇，贞吉亨。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#1-初六-有孚，比之，无咎。有孚，盈缶，终来有它吉"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#1-初六-谦谦君子，用涉大川，吉。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#1-初六-遯尾厉，勿用有攸往。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#1-初六-鸣豫，凶。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#1-春"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#1-金"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#1-初九-磐桓(huan2)，利居贞，利建侯"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#10-夏至"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#10-少阴-秋"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#10-癸"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#10-酉"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#100-震-雷"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#100-000-复-震下坤上-24"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#100-001-颐-震下艮上-27"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#100-010-屯-震下坎上-03"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#100-011-益-震下巽上-42"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#100-100-震-震下震上-51"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#100-101-噬嗑-震下离上-21"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#100-110-随-震下兑上-17"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#100-111-无妄-震下乾上-25"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#101-离-火"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#101-000-明夷-离下坤上-36"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#101-001-贲-离下艮上-22"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#101-010-既济-离下坎上-63"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#101-011-家人-离下巽上-37"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#101-100-丰-离下震上-55"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#101-101-离-离上离下-30"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#101-110-革-离下兑上-49"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#101-111-同人-离下乾上-13"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#11-小暑"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#11-戌"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#11-老阳-夏"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#110-兑-泽"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#110-000-临-兑下坤上-19"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#110-001-损-兑下艮上-41"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#110-010-节-兑下坎上-60"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#110-011-中孚-兑下巽上-61"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#110-100-归妹-兑下震上-54"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#110-101-睽-兑下离上-38"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#110-110-兑-兑下兑上-58"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#110-111-履-兑下乾上-10"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#111-乾-天"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#111-000-泰-乾下坤上-11"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#111-001-大畜-乾下艮上-26"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#111-010-需-乾下坎上-05"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#111-011-小畜-乾下巽上-09"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#111-100-大壮-乾下震上-34"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#111-101-大有-乾下离上-14"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#111-110-夬-乾下兑上-43"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#111-111-乾-乾下乾上-01"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#12-亥"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#12-大暑"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#13-立秋"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#14-处暑"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#15-白露"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#16-秋分"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#17-寒露"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#18-霜降"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#19-立冬"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#2-九二-不克讼，归而逋，其邑人三百户，无眚"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#2-九二-包荒，用冯河，不遐遗，朋亡。得尚于中行。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#2-九二-包蒙吉，纳妇吉，子克家"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#2-九二-在师中，吉无咎，王三锡命"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#2-九二-大车以载，有攸往，无咎。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#2-九二-履道坦坦，幽人贞吉"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#2-九二-干母之蛊，不可贞。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#2-九二-牵复，吉"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#2-九二-见龙在田，利见大人"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#2-九二-贞吉。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#2-九二-需于沙，小有言，终吉"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#2-六二-介于石，不终日，贞吉。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#2-六二-包成，小人吉，大人否亨。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#2-六二-同人于宗，吝。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#2-六二-屯如？如，乘马班如，匪寇婚媾，女子贞十字，十年乃字"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#2-六二-执之用黄牛之革，莫之胜说。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#2-六二-比之自内，贞吉"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#2-六二-直方，大，不习，无不利"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#2-六二-系小子，失丈夫。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#2-六二-鸣谦，贞吉。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#2-夏"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#2-木"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#20-小雪"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#21-大雪"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#22-冬至"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#23-小寒"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#24-大寒"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#3-九三-伏戎于莽，升其高陵，三岁不兴。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#3-九三-公用亨于天子，小人弗克。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#3-九三-劳谦，君子有终，吉。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#3-九三-君子终日乾乾，夕惕若，厉，无咎"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#3-九三-小人用壮，君子用罔，贞厉，羝羊触藩，羸其角。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#3-九三-干父之蛊，小有悔，无大咎。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#3-九三-无平不陂，无往不复，艰贞无咎，勿恤其孚，于食有福。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#3-九三-系遯，有疾厉，畜臣妾吉。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#3-九三-舆说辐，夫妻反目"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#3-九三-需于泥，致寇至"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#3-六三-勿用取女，见金夫，不有躬，无攸利"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#3-六三-包羞。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#3-六三-即鹿无虞，惟入于林中，君子几，不如舍，往吝"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#3-六三-含章可贞，或从王事，无成有终"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#3-六三-师或舆尸，凶"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#3-六三-比之匪人"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#3-六三-系丈夫，失小子。随有求得，利居贞。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#3-六三-食旧德，贞厉，终吉，或从王事无成"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#3-水"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#3-秋"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#3-六三-盱(xu1)豫悔，迟有悔。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#3-六三-眇能视，跛(bo3)能履，履虎尾，咥(die2)人，凶，武人为于大君"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#4-九四-不克讼，复即命，渝安贞，吉"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#4-九四-乘其墉，弗克攻，吉。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#4-九四-匪其彭，无咎。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#4-九四-好遯，君子吉，小人否。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#4-九四-或跃在渊，无咎"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#4-九四-有命无咎，畴离祉。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#4-九四-贞吉悔亡，藩决不羸。壮于大舆之輹。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#4-九四-随有获，贞凶。有孚在道，以明，何咎。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#4-六四-乘马班如，求婚媾，往吉，无不利"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#4-六四-困蒙，吝"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#4-六四-外比之，贞吉"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#4-六四-师左次无咎"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#4-六四-括囊，无咎无誉"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#4-六四-有孚，血去惕出，无咎"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#4-六四-翩翩不富以其邻，不戒以孚。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#4-六四-裕父之蛊，往见吝。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#4-六四-需于血，出自穴"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#4-冬"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#4-火"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#4-九四-履虎尾，愬愬(su4)终吉"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#4-九四-由豫，大有得，勿疑，朋盍(he2)簪。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#4-六四-无不利，㧑(wei2)谦。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#5-九五-休否，大人吉，其亡其亡，系于苞桑。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#5-九五-嘉遯，贞吉。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#5-九五-孚于嘉，吉。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#5-九五-显比，王用三驱失前禽，邑人不诫，吉"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#5-九五-有孚挛如，富以其邻"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#5-九五-讼元吉"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#5-九五-需于酒食，贞吉"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#5-九五-飞龙在天，利见大人"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#5-六五-不富以其邻，利用侵伐，无不利。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#5-六五-丧羊于易，无悔。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#5-六五-屯其膏，小贞吉，大贞凶"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#5-六五-干父之蛊，用誉。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#5-六五-田有禽，利执言，无咎。长子帅师，弟子舆尸，贞凶"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#5-六五-童蒙，吉"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#5-六五-贞疾，恒不死。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#5-六五-黄裳，元吉"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#5-土"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#5-九五-同人先号咷(tao2)而后笑，大师克相遇。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#5-九五-夬(guai4)履，贞厉"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#5-六五-厥(jue2)孚交如，威如，吉。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#5-六五-帝乙归妹，以祉(zhi3)，元吉。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#6-上九-不事王侯，高尚其事。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#6-上九-亢龙有悔"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#6-上九-倾否，先否后喜。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#6-上九-击蒙，不利为寇，利御寇"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#6-上九-同人于郊，无悔。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#6-上九-既雨既处，尚德载，妇贞厉，月几望，君子征凶"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#6-上九-自天祐之，吉无不利。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#6-上九-视履考祥，其旋元吉"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#6-上六-乘马班如，泣血涟如"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#6-上六-入于穴，有不速之客三人来，敬之终吉"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#6-上六-冥豫，成有渝，无咎。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#6-上六-城复于隍，勿用师，自邑告命，贞吝。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#6-上六-大君有命，开国承家，小人勿用"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#6-上六-拘系之，乃从维之。王用亨于西山。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#6-上六-比之无首，凶"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#6-上六-羝羊触藩，不能退，不能遂，无攸利，艰则吉。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#6-上六-鸣谦，利用行师，征邑国。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#6-上六-龙战于野，其血玄黄"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#6-九六-肥遯无不利。"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#6-上九-或锡之鞶(pan2)带，终朝褫(chi3)之"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#7-用九-见群龙无首，吉"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#7-用六-利永贞"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#五行到天干"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#前序"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#卦到节气"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#后序"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#四时到节气"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#地支到节气"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#天干到地支"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#相对"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#节气到卦"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#0-坤（阴）"/>
+        <Class IRI="#太极"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#00-老阴-冬"/>
+        <Class IRI="#0-坤（阴）"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#000-坤-地"/>
+        <Class IRI="#00-老阴-冬"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#000-000-坤-坤下坤上-02"/>
+        <Class IRI="#000-坤-地"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#000-000-坤-坤下坤上-02"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#100-010-屯-震下坎上-03"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#000-000-坤-坤下坤上-02"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#111-111-乾-乾下乾上-01"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#000-001-剥-坤下艮上-23"/>
+        <Class IRI="#000-坤-地"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#000-001-剥-坤下艮上-23"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#101-001-贲-离下艮上-22"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#000-001-剥-坤下艮上-23"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#100-000-复-震下坤上-24"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#000-010-比-坤下坎上-08"/>
+        <Class IRI="#000-坤-地"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#000-010-比-坤下坎上-08"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#111-011-小畜-乾下巽上-09"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#000-010-比-坤下坎上-08"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#010-000-师-坎下坤上-07"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#000-011-观-坤下巽上-20"/>
+        <Class IRI="#000-坤-地"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#000-011-观-坤下巽上-20"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#110-000-临-兑下坤上-19"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#000-011-观-坤下巽上-20"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#100-101-噬嗑-震下离上-21"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#000-100-豫-坤下震上-16"/>
+        <Class IRI="#000-坤-地"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#000-100-豫-坤下震上-16"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#001-000-谦-艮下坤上-15"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#000-100-豫-坤下震上-16"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#100-110-随-震下兑上-17"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#000-101-晋-坤下离上-35"/>
+        <Class IRI="#000-坤-地"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#000-101-晋-坤下离上-35"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#111-100-大壮-乾下震上-34"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#000-101-晋-坤下离上-35"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#101-000-明夷-离下坤上-36"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#000-110-萃-坤下兑上-45"/>
+        <Class IRI="#000-坤-地"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#000-110-萃-坤下兑上-45"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#011-111-姤-巽下乾上-44"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#000-110-萃-坤下兑上-45"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#011-000-升-巽下坤上-46"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#000-111-否-坤下乾上-12"/>
+        <Class IRI="#000-坤-地"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#000-111-否-坤下乾上-12"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#101-111-同人-离下乾上-13"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#000-111-否-坤下乾上-12"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#相对"/>
+            <Class IRI="#111-000-泰-乾下坤上-11"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#001-艮-山"/>
+        <Class IRI="#00-老阴-冬"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#001-000-谦-艮下坤上-15"/>
+        <Class IRI="#001-艮-山"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#001-000-谦-艮下坤上-15"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#111-101-大有-乾下离上-14"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#001-000-谦-艮下坤上-15"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#000-100-豫-坤下震上-16"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#001-001-艮-艮下艮上-52"/>
+        <Class IRI="#001-艮-山"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#001-001-艮-艮下艮上-52"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#100-100-震-震下震上-51"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#001-001-艮-艮下艮上-52"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#001-011-渐-艮下巽上-53"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#001-010-蹇-艮下坎上-39"/>
+        <Class IRI="#001-艮-山"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#001-010-蹇-艮下坎上-39"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#110-101-睽-兑下离上-38"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#001-010-蹇-艮下坎上-39"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#010-100-解-坎下震上-40"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#001-011-渐-艮下巽上-53"/>
+        <Class IRI="#001-艮-山"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#001-011-渐-艮下巽上-53"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#001-001-艮-艮下艮上-52"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#001-011-渐-艮下巽上-53"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#110-100-归妹-兑下震上-54"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#001-100-小过-艮下震上-62"/>
+        <Class IRI="#001-艮-山"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#001-100-小过-艮下震上-62"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#110-011-中孚-兑下巽上-61"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#001-100-小过-艮下震上-62"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#101-010-既济-离下坎上-63"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#001-101-旅-艮下离上-56"/>
+        <Class IRI="#001-艮-山"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#001-101-旅-艮下离上-56"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#101-100-丰-离下震上-55"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#001-101-旅-艮下离上-56"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#011-011-巽-巽下巽上-57"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#001-110-咸-艮下兑上-31"/>
+        <Class IRI="#001-艮-山"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#001-110-咸-艮下兑上-31"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#101-101-离-离上离下-30"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#001-110-咸-艮下兑上-31"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#011-100-恒-巽下震上-32"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#001-111-遯-艮下乾上-33"/>
+        <Class IRI="#001-艮-山"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#001-111-遯-艮下乾上-33"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#011-100-恒-巽下震上-32"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#001-111-遯-艮下乾上-33"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#111-100-大壮-乾下震上-34"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#01-子"/>
+        <Class IRI="#地支"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#01-子"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#四时到节气"/>
+            <ObjectUnionOf>
+                <Class IRI="#03-惊蛰"/>
+                <Class IRI="#04-春分"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#01-少阳-春"/>
+        <Class IRI="#0-坤（阴）"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#01-甲"/>
+        <Class IRI="#天干"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#01-甲"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#天干到地支"/>
+            <Class IRI="#03-寅"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#01-立春"/>
+        <Class IRI="#节气"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#01-立春"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#节气到卦"/>
+            <ObjectUnionOf>
+                <Class IRI="#000-011-观-坤下巽上-20"/>
+                <Class IRI="#000-100-豫-坤下震上-16"/>
+                <Class IRI="#000-101-晋-坤下离上-35"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#010-坎-水（云）"/>
+        <Class IRI="#01-少阳-春"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#010-000-师-坎下坤上-07"/>
+        <Class IRI="#010-坎-水（云）"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#010-000-师-坎下坤上-07"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#010-111-讼-坎下乾上-06"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#010-000-师-坎下坤上-07"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#000-010-比-坤下坎上-08"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#010-001-蒙-坎下艮上-04"/>
+        <Class IRI="#010-坎-水（云）"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#010-001-蒙-坎下艮上-04"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#100-010-屯-震下坎上-03"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#010-001-蒙-坎下艮上-04"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#111-010-需-乾下坎上-05"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#010-010-坎-坎下坎上-29"/>
+        <Class IRI="#010-坎-水（云）"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#010-010-坎-坎下坎上-29"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#011-110-大过-巽下兑上-28"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#010-010-坎-坎下坎上-29"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#101-101-离-离上离下-30"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#010-011-涣-坎下巽上-59"/>
+        <Class IRI="#010-坎-水（云）"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#010-011-涣-坎下巽上-59"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#110-110-兑-兑下兑上-58"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#010-011-涣-坎下巽上-59"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#110-010-节-兑下坎上-60"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#010-100-解-坎下震上-40"/>
+        <Class IRI="#010-坎-水（云）"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#010-100-解-坎下震上-40"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#001-010-蹇-艮下坎上-39"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#010-100-解-坎下震上-40"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#110-001-损-兑下艮上-41"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#010-101-未济-坎下离上-64"/>
+        <Class IRI="#010-坎-水（云）"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#010-101-未济-坎下离上-64"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#101-010-既济-离下坎上-63"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#010-110-困-坎下兑上-47"/>
+        <Class IRI="#010-坎-水（云）"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#010-110-困-坎下兑上-47"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#011-000-升-巽下坤上-46"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#010-110-困-坎下兑上-47"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#011-010-井-巽下坎上-48"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#010-111-讼-坎下乾上-06"/>
+        <Class IRI="#010-坎-水（云）"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#010-111-讼-坎下乾上-06"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#111-010-需-乾下坎上-05"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#010-111-讼-坎下乾上-06"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#010-000-师-坎下坤上-07"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#011-巽-风"/>
+        <Class IRI="#01-少阳-春"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#011-000-升-巽下坤上-46"/>
+        <Class IRI="#011-巽-风"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#011-000-升-巽下坤上-46"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#000-110-萃-坤下兑上-45"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#011-000-升-巽下坤上-46"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#010-110-困-坎下兑上-47"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#011-001-蛊-巽下艮上-18"/>
+        <Class IRI="#011-巽-风"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#011-001-蛊-巽下艮上-18"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#100-110-随-震下兑上-17"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#011-001-蛊-巽下艮上-18"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#110-000-临-兑下坤上-19"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#011-010-井-巽下坎上-48"/>
+        <Class IRI="#011-巽-风"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#011-010-井-巽下坎上-48"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#010-110-困-坎下兑上-47"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#011-010-井-巽下坎上-48"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#101-110-革-离下兑上-49"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#011-011-巽-巽下巽上-57"/>
+        <Class IRI="#011-巽-风"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#011-011-巽-巽下巽上-57"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#001-101-旅-艮下离上-56"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#011-011-巽-巽下巽上-57"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#110-110-兑-兑下兑上-58"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#011-100-恒-巽下震上-32"/>
+        <Class IRI="#011-巽-风"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#011-100-恒-巽下震上-32"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#001-110-咸-艮下兑上-31"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#011-100-恒-巽下震上-32"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#001-111-遯-艮下乾上-33"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#011-101-鼎-巽下离上-50"/>
+        <Class IRI="#011-巽-风"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#011-101-鼎-巽下离上-50"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#101-110-革-离下兑上-49"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#011-101-鼎-巽下离上-50"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#100-100-震-震下震上-51"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#011-110-大过-巽下兑上-28"/>
+        <Class IRI="#011-巽-风"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#011-110-大过-巽下兑上-28"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#100-001-颐-震下艮上-27"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#011-110-大过-巽下兑上-28"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#010-010-坎-坎下坎上-29"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#011-111-姤-巽下乾上-44"/>
+        <Class IRI="#011-巽-风"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#011-111-姤-巽下乾上-44"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#111-110-夬-乾下兑上-43"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#011-111-姤-巽下乾上-44"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#000-110-萃-坤下兑上-45"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#02-丑"/>
+        <Class IRI="#地支"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#02-丑"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#四时到节气"/>
+            <ObjectUnionOf>
+                <Class IRI="#05-清明"/>
+                <Class IRI="#06-谷雨"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#02-乙"/>
+        <Class IRI="#天干"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#02-乙"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#天干到地支"/>
+            <Class IRI="#04-卯"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#02-雨水"/>
+        <Class IRI="#节气"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#02-雨水"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#节气到卦"/>
+            <ObjectUnionOf>
+                <Class IRI="#000-000-坤-坤下坤上-02"/>
+                <Class IRI="#000-001-剥-坤下艮上-23"/>
+                <Class IRI="#000-010-比-坤下坎上-08"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#03-丙"/>
+        <Class IRI="#天干"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#03-丙"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#天干到地支"/>
+            <Class IRI="#06-巳"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#03-寅"/>
+        <Class IRI="#地支"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#03-寅"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#四时到节气"/>
+            <ObjectUnionOf>
+                <Class IRI="#07-立夏"/>
+                <Class IRI="#08-小满"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#03-惊蛰"/>
+        <Class IRI="#节气"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#03-惊蛰"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#节气到卦"/>
+            <ObjectUnionOf>
+                <Class IRI="#111-101-大有-乾下离上-14"/>
+                <Class IRI="#111-110-夬-乾下兑上-43"/>
+                <Class IRI="#111-111-乾-乾下乾上-01"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#04-丁"/>
+        <Class IRI="#天干"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#04-丁"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#天干到地支"/>
+            <Class IRI="#07-午"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#04-卯"/>
+        <Class IRI="#地支"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#04-卯"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#四时到节气"/>
+            <ObjectUnionOf>
+                <Class IRI="#09-芒种"/>
+                <Class IRI="#10-夏至"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#04-春分"/>
+        <Class IRI="#节气"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#04-春分"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#节气到卦"/>
+            <ObjectUnionOf>
+                <Class IRI="#111-010-需-乾下坎上-05"/>
+                <Class IRI="#111-011-小畜-乾下巽上-09"/>
+                <Class IRI="#111-100-大壮-乾下震上-34"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#05-戊"/>
+        <Class IRI="#天干"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#05-戊"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#天干到地支"/>
+            <ObjectUnionOf>
+                <Class IRI="#02-丑"/>
+                <Class IRI="#11-戌"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#05-清明"/>
+        <Class IRI="#节气"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#05-清明"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#节气到卦"/>
+            <ObjectUnionOf>
+                <Class IRI="#111-000-泰-乾下坤上-11"/>
+                <Class IRI="#111-001-大畜-乾下艮上-26"/>
+                <Class IRI="#111-010-需-乾下坎上-05"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#05-辰"/>
+        <Class IRI="#地支"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#05-辰"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#四时到节气"/>
+            <ObjectUnionOf>
+                <Class IRI="#11-小暑"/>
+                <Class IRI="#12-大暑"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#06-己"/>
+        <Class IRI="#天干"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#06-己"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#天干到地支"/>
+            <ObjectUnionOf>
+                <Class IRI="#05-辰"/>
+                <Class IRI="#08-未"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#06-巳"/>
+        <Class IRI="#地支"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#06-巳"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#四时到节气"/>
+            <ObjectUnionOf>
+                <Class IRI="#13-立秋"/>
+                <Class IRI="#14-处暑"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#06-谷雨"/>
+        <Class IRI="#节气"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#06-谷雨"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#节气到卦"/>
+            <ObjectUnionOf>
+                <Class IRI="#110-101-睽-兑下离上-38"/>
+                <Class IRI="#110-110-兑-兑下兑上-58"/>
+                <Class IRI="#110-111-履-兑下乾上-10"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#07-午"/>
+        <Class IRI="#地支"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#07-午"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#四时到节气"/>
+            <ObjectUnionOf>
+                <Class IRI="#15-白露"/>
+                <Class IRI="#16-秋分"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#07-庚"/>
+        <Class IRI="#天干"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#07-庚"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#天干到地支"/>
+            <Class IRI="#09-申"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#07-立夏"/>
+        <Class IRI="#节气"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#07-立夏"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#节气到卦"/>
+            <ObjectUnionOf>
+                <Class IRI="#110-010-节-兑下坎上-60"/>
+                <Class IRI="#110-011-中孚-兑下巽上-61"/>
+                <Class IRI="#110-100-归妹-兑下震上-54"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#08-小满"/>
+        <Class IRI="#节气"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#08-小满"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#节气到卦"/>
+            <ObjectUnionOf>
+                <Class IRI="#110-000-临-兑下坤上-19"/>
+                <Class IRI="#110-001-损-兑下艮上-41"/>
+                <Class IRI="#110-010-节-兑下坎上-60"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#08-未"/>
+        <Class IRI="#地支"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#08-未"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#四时到节气"/>
+            <ObjectUnionOf>
+                <Class IRI="#17-寒露"/>
+                <Class IRI="#18-霜降"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#08-辛"/>
+        <Class IRI="#天干"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#08-辛"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#天干到地支"/>
+            <Class IRI="#10-酉"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#09-壬"/>
+        <Class IRI="#天干"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#09-壬"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#天干到地支"/>
+            <Class IRI="#12-亥"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#09-申"/>
+        <Class IRI="#地支"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#09-申"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#四时到节气"/>
+            <ObjectUnionOf>
+                <Class IRI="#19-立冬"/>
+                <Class IRI="#20-小雪"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#09-芒种"/>
+        <Class IRI="#节气"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#09-芒种"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#节气到卦"/>
+            <ObjectUnionOf>
+                <Class IRI="#101-101-离-离上离下-30"/>
+                <Class IRI="#101-110-革-离下兑上-49"/>
+                <Class IRI="#101-111-同人-离下乾上-13"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#1-乾（阳）"/>
+        <Class IRI="#太极"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#1-初九-同人于门，无咎。"/>
+        <Class IRI="#101-111-同人-离下乾上-13"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#1-初九-壮于趾，征凶有孚。"/>
+        <Class IRI="#111-100-大壮-乾下震上-34"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#1-初九-复自道，何其咎，吉"/>
+        <Class IRI="#111-011-小畜-乾下巽上-09"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#1-初九-官有渝，贞吉，出门交有功。"/>
+        <Class IRI="#100-110-随-震下兑上-17"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#1-初九-拔茅茹，以其汇征，吉"/>
+        <Class IRI="#111-000-泰-乾下坤上-11"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#1-初九-无交害，匪咎，艰则无咎。"/>
+        <Class IRI="#111-101-大有-乾下离上-14"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#1-初九-潜龙勿用"/>
+        <Class IRI="#111-111-乾-乾下乾上-01"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#1-初九-素履往，无咎"/>
+        <Class IRI="#110-111-履-兑下乾上-10"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#1-初九-需于郊，利用恒，无咎"/>
+        <Class IRI="#111-010-需-乾下坎上-05"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#1-初六-不永所事，小有言，终吉"/>
+        <Class IRI="#010-111-讼-坎下乾上-06"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#1-初六-发蒙，利用刑人，用说桎梏，以往，吝"/>
+        <Class IRI="#010-001-蒙-坎下艮上-04"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#1-初六-履霜坚冰至"/>
+        <Class IRI="#000-000-坤-坤下坤上-02"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#1-初六-师出以律，否臧凶"/>
+        <Class IRI="#010-000-师-坎下坤上-07"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#1-初六-干父之蛊，有子，考无咎，厉终吉。"/>
+        <Class IRI="#011-001-蛊-巽下艮上-18"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#1-初六-拔茅茹，以其汇，贞吉亨。"/>
+        <Class IRI="#000-111-否-坤下乾上-12"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#1-初六-有孚，比之，无咎。有孚，盈缶，终来有它吉"/>
+        <Class IRI="#000-010-比-坤下坎上-08"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#1-初六-谦谦君子，用涉大川，吉。"/>
+        <Class IRI="#001-000-谦-艮下坤上-15"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#1-初六-遯尾厉，勿用有攸往。"/>
+        <Class IRI="#001-111-遯-艮下乾上-33"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#1-初六-鸣豫，凶。"/>
+        <Class IRI="#000-100-豫-坤下震上-16"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#1-春"/>
+        <Class IRI="#四时"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#1-春"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#四时到节气"/>
+            <ObjectUnionOf>
+                <Class IRI="#01-立春"/>
+                <Class IRI="#02-雨水"/>
+                <Class IRI="#03-惊蛰"/>
+                <Class IRI="#04-春分"/>
+                <Class IRI="#05-清明"/>
+                <Class IRI="#06-谷雨"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#1-金"/>
+        <Class IRI="#五行"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#1-金"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#五行到天干"/>
+            <ObjectUnionOf>
+                <Class IRI="#07-庚"/>
+                <Class IRI="#08-辛"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#1-初九-磐桓(huan2)，利居贞，利建侯"/>
+        <Class IRI="#100-010-屯-震下坎上-03"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#10-夏至"/>
+        <Class IRI="#节气"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#10-夏至"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#节气到卦"/>
+            <ObjectUnionOf>
+                <Class IRI="#101-010-既济-离下坎上-63"/>
+                <Class IRI="#101-011-家人-离下巽上-37"/>
+                <Class IRI="#101-100-丰-离下震上-55"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#10-少阴-秋"/>
+        <Class IRI="#1-乾（阳）"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#10-癸"/>
+        <Class IRI="#天干"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#10-癸"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#天干到地支"/>
+            <Class IRI="#01-子"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#10-酉"/>
+        <Class IRI="#地支"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#10-酉"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#四时到节气"/>
+            <ObjectUnionOf>
+                <Class IRI="#21-大雪"/>
+                <Class IRI="#22-冬至"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#100-震-雷"/>
+        <Class IRI="#10-少阴-秋"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#100-000-复-震下坤上-24"/>
+        <Class IRI="#100-震-雷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#100-000-复-震下坤上-24"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#000-001-剥-坤下艮上-23"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#100-000-复-震下坤上-24"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#100-111-无妄-震下乾上-25"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#100-001-颐-震下艮上-27"/>
+        <Class IRI="#100-震-雷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#100-001-颐-震下艮上-27"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#111-001-大畜-乾下艮上-26"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#100-001-颐-震下艮上-27"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#011-110-大过-巽下兑上-28"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#100-010-屯-震下坎上-03"/>
+        <Class IRI="#100-震-雷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#100-010-屯-震下坎上-03"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#000-000-坤-坤下坤上-02"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#100-011-益-震下巽上-42"/>
+        <Class IRI="#100-震-雷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#100-011-益-震下巽上-42"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#110-001-损-兑下艮上-41"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#100-011-益-震下巽上-42"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#111-110-夬-乾下兑上-43"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#100-100-震-震下震上-51"/>
+        <Class IRI="#100-震-雷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#100-100-震-震下震上-51"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#011-101-鼎-巽下离上-50"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#100-100-震-震下震上-51"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#001-001-艮-艮下艮上-52"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#100-101-噬嗑-震下离上-21"/>
+        <Class IRI="#100-震-雷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#100-101-噬嗑-震下离上-21"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#000-011-观-坤下巽上-20"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#100-101-噬嗑-震下离上-21"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#101-001-贲-离下艮上-22"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#100-110-随-震下兑上-17"/>
+        <Class IRI="#100-震-雷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#100-110-随-震下兑上-17"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#000-100-豫-坤下震上-16"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#100-110-随-震下兑上-17"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#011-001-蛊-巽下艮上-18"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#100-111-无妄-震下乾上-25"/>
+        <Class IRI="#100-震-雷"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#100-111-无妄-震下乾上-25"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#100-000-复-震下坤上-24"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#100-111-无妄-震下乾上-25"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#111-001-大畜-乾下艮上-26"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#101-离-火"/>
+        <Class IRI="#10-少阴-秋"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#101-000-明夷-离下坤上-36"/>
+        <Class IRI="#101-离-火"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#101-000-明夷-离下坤上-36"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#000-101-晋-坤下离上-35"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#101-000-明夷-离下坤上-36"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#101-011-家人-离下巽上-37"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#101-001-贲-离下艮上-22"/>
+        <Class IRI="#101-离-火"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#101-001-贲-离下艮上-22"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#100-101-噬嗑-震下离上-21"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#101-001-贲-离下艮上-22"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#000-001-剥-坤下艮上-23"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#101-010-既济-离下坎上-63"/>
+        <Class IRI="#101-离-火"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#101-010-既济-离下坎上-63"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#001-100-小过-艮下震上-62"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#101-010-既济-离下坎上-63"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#010-101-未济-坎下离上-64"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#101-011-家人-离下巽上-37"/>
+        <Class IRI="#101-离-火"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#101-011-家人-离下巽上-37"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#101-000-明夷-离下坤上-36"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#101-011-家人-离下巽上-37"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#110-101-睽-兑下离上-38"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#101-100-丰-离下震上-55"/>
+        <Class IRI="#101-离-火"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#101-100-丰-离下震上-55"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#110-100-归妹-兑下震上-54"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#101-100-丰-离下震上-55"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#001-101-旅-艮下离上-56"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#101-101-离-离上离下-30"/>
+        <Class IRI="#101-离-火"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#101-101-离-离上离下-30"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#010-010-坎-坎下坎上-29"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#101-101-离-离上离下-30"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#001-110-咸-艮下兑上-31"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#101-110-革-离下兑上-49"/>
+        <Class IRI="#101-离-火"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#101-110-革-离下兑上-49"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#011-101-鼎-巽下离上-50"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#101-110-革-离下兑上-49"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#011-010-井-巽下坎上-48"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#101-111-同人-离下乾上-13"/>
+        <Class IRI="#101-离-火"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#101-111-同人-离下乾上-13"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#000-111-否-坤下乾上-12"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#101-111-同人-离下乾上-13"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#111-101-大有-乾下离上-14"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#101-111-同人-离下乾上-13"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#相对"/>
+            <Class IRI="#111-101-大有-乾下离上-14"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#11-小暑"/>
+        <Class IRI="#节气"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#11-小暑"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#节气到卦"/>
+            <ObjectUnionOf>
+                <Class IRI="#101-000-明夷-离下坤上-36"/>
+                <Class IRI="#101-001-贲-离下艮上-22"/>
+                <Class IRI="#101-010-既济-离下坎上-63"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#11-戌"/>
+        <Class IRI="#地支"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#11-戌"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#四时到节气"/>
+            <ObjectUnionOf>
+                <Class IRI="#23-小寒"/>
+                <Class IRI="#24-大寒"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#11-老阳-夏"/>
+        <Class IRI="#1-乾（阳）"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#110-兑-泽"/>
+        <Class IRI="#11-老阳-夏"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#110-000-临-兑下坤上-19"/>
+        <Class IRI="#110-兑-泽"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#110-000-临-兑下坤上-19"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#011-001-蛊-巽下艮上-18"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#110-000-临-兑下坤上-19"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#000-011-观-坤下巽上-20"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#110-001-损-兑下艮上-41"/>
+        <Class IRI="#110-兑-泽"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#110-001-损-兑下艮上-41"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#010-100-解-坎下震上-40"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#110-001-损-兑下艮上-41"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#100-011-益-震下巽上-42"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#110-010-节-兑下坎上-60"/>
+        <Class IRI="#110-兑-泽"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#110-010-节-兑下坎上-60"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#010-011-涣-坎下巽上-59"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#110-010-节-兑下坎上-60"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#110-011-中孚-兑下巽上-61"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#110-011-中孚-兑下巽上-61"/>
+        <Class IRI="#110-兑-泽"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#110-011-中孚-兑下巽上-61"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#110-010-节-兑下坎上-60"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#110-011-中孚-兑下巽上-61"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#001-100-小过-艮下震上-62"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#110-100-归妹-兑下震上-54"/>
+        <Class IRI="#110-兑-泽"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#110-100-归妹-兑下震上-54"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#001-011-渐-艮下巽上-53"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#110-100-归妹-兑下震上-54"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#相对"/>
+            <Class IRI="#101-100-丰-离下震上-55"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#110-101-睽-兑下离上-38"/>
+        <Class IRI="#110-兑-泽"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#110-101-睽-兑下离上-38"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#101-011-家人-离下巽上-37"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#110-101-睽-兑下离上-38"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#001-010-蹇-艮下坎上-39"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#110-110-兑-兑下兑上-58"/>
+        <Class IRI="#110-兑-泽"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#110-110-兑-兑下兑上-58"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#011-011-巽-巽下巽上-57"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#110-110-兑-兑下兑上-58"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#010-011-涣-坎下巽上-59"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#110-111-履-兑下乾上-10"/>
+        <Class IRI="#110-兑-泽"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#110-111-履-兑下乾上-10"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#111-011-小畜-乾下巽上-09"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#110-111-履-兑下乾上-10"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#111-000-泰-乾下坤上-11"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#111-乾-天"/>
+        <Class IRI="#11-老阳-夏"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#111-000-泰-乾下坤上-11"/>
+        <Class IRI="#111-乾-天"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#111-000-泰-乾下坤上-11"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#110-111-履-兑下乾上-10"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#111-000-泰-乾下坤上-11"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#000-111-否-坤下乾上-12"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#111-000-泰-乾下坤上-11"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#相对"/>
+            <Class IRI="#000-111-否-坤下乾上-12"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#111-001-大畜-乾下艮上-26"/>
+        <Class IRI="#111-乾-天"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#111-001-大畜-乾下艮上-26"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#100-111-无妄-震下乾上-25"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#111-001-大畜-乾下艮上-26"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#100-001-颐-震下艮上-27"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#111-010-需-乾下坎上-05"/>
+        <Class IRI="#111-乾-天"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#111-010-需-乾下坎上-05"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#010-001-蒙-坎下艮上-04"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#111-010-需-乾下坎上-05"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#010-111-讼-坎下乾上-06"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#111-011-小畜-乾下巽上-09"/>
+        <Class IRI="#111-乾-天"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#111-011-小畜-乾下巽上-09"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#000-010-比-坤下坎上-08"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#111-011-小畜-乾下巽上-09"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#110-111-履-兑下乾上-10"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#111-100-大壮-乾下震上-34"/>
+        <Class IRI="#111-乾-天"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#111-100-大壮-乾下震上-34"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#001-111-遯-艮下乾上-33"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#111-100-大壮-乾下震上-34"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#000-101-晋-坤下离上-35"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#111-101-大有-乾下离上-14"/>
+        <Class IRI="#111-乾-天"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#111-101-大有-乾下离上-14"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#101-111-同人-离下乾上-13"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#111-101-大有-乾下离上-14"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#001-000-谦-艮下坤上-15"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#111-101-大有-乾下离上-14"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#相对"/>
+            <Class IRI="#101-111-同人-离下乾上-13"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#111-110-夬-乾下兑上-43"/>
+        <Class IRI="#111-乾-天"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#111-110-夬-乾下兑上-43"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#前序"/>
+            <Class IRI="#100-011-益-震下巽上-42"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#111-110-夬-乾下兑上-43"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#后序"/>
+            <Class IRI="#011-111-姤-巽下乾上-44"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#111-111-乾-乾下乾上-01"/>
+        <Class IRI="#111-乾-天"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#12-亥"/>
+        <Class IRI="#地支"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#12-亥"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#四时到节气"/>
+            <ObjectUnionOf>
+                <Class IRI="#01-立春"/>
+                <Class IRI="#02-雨水"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#12-大暑"/>
+        <Class IRI="#节气"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#12-大暑"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#节气到卦"/>
+            <ObjectUnionOf>
+                <Class IRI="#100-101-噬嗑-震下离上-21"/>
+                <Class IRI="#100-110-随-震下兑上-17"/>
+                <Class IRI="#100-111-无妄-震下乾上-25"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#13-立秋"/>
+        <Class IRI="#节气"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#13-立秋"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#节气到卦"/>
+            <ObjectUnionOf>
+                <Class IRI="#100-010-屯-震下坎上-03"/>
+                <Class IRI="#100-011-益-震下巽上-42"/>
+                <Class IRI="#100-100-震-震下震上-51"/>
+                <Class IRI="#100-101-噬嗑-震下离上-21"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#14-处暑"/>
+        <Class IRI="#节气"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#14-处暑"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#节气到卦"/>
+            <ObjectUnionOf>
+                <Class IRI="#100-000-复-震下坤上-24"/>
+                <Class IRI="#100-001-颐-震下艮上-27"/>
+                <Class IRI="#100-010-屯-震下坎上-03"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#15-白露"/>
+        <Class IRI="#节气"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#15-白露"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#节气到卦"/>
+            <ObjectUnionOf>
+                <Class IRI="#011-101-鼎-巽下离上-50"/>
+                <Class IRI="#011-110-大过-巽下兑上-28"/>
+                <Class IRI="#011-111-姤-巽下乾上-44"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#16-秋分"/>
+        <Class IRI="#节气"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#16-秋分"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#节气到卦"/>
+            <ObjectUnionOf>
+                <Class IRI="#011-010-井-巽下坎上-48"/>
+                <Class IRI="#011-011-巽-巽下巽上-57"/>
+                <Class IRI="#011-100-恒-巽下震上-32"/>
+                <Class IRI="#011-101-鼎-巽下离上-50"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#17-寒露"/>
+        <Class IRI="#节气"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#17-寒露"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#节气到卦"/>
+            <ObjectUnionOf>
+                <Class IRI="#011-000-升-巽下坤上-46"/>
+                <Class IRI="#011-001-蛊-巽下艮上-18"/>
+                <Class IRI="#011-010-井-巽下坎上-48"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#18-霜降"/>
+        <Class IRI="#节气"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#18-霜降"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#节气到卦"/>
+            <ObjectUnionOf>
+                <Class IRI="#010-101-未济-坎下离上-64"/>
+                <Class IRI="#010-110-困-坎下兑上-47"/>
+                <Class IRI="#010-111-讼-坎下乾上-06"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#19-立冬"/>
+        <Class IRI="#节气"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#19-立冬"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#节气到卦"/>
+            <ObjectUnionOf>
+                <Class IRI="#010-011-涣-坎下巽上-59"/>
+                <Class IRI="#010-100-解-坎下震上-40"/>
+                <Class IRI="#010-101-未济-坎下离上-64"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2-九二-不克讼，归而逋，其邑人三百户，无眚"/>
+        <Class IRI="#010-111-讼-坎下乾上-06"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2-九二-包荒，用冯河，不遐遗，朋亡。得尚于中行。"/>
+        <Class IRI="#111-000-泰-乾下坤上-11"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2-九二-包蒙吉，纳妇吉，子克家"/>
+        <Class IRI="#010-001-蒙-坎下艮上-04"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2-九二-在师中，吉无咎，王三锡命"/>
+        <Class IRI="#010-000-师-坎下坤上-07"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2-九二-大车以载，有攸往，无咎。"/>
+        <Class IRI="#111-101-大有-乾下离上-14"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2-九二-履道坦坦，幽人贞吉"/>
+        <Class IRI="#110-111-履-兑下乾上-10"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2-九二-干母之蛊，不可贞。"/>
+        <Class IRI="#011-001-蛊-巽下艮上-18"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2-九二-牵复，吉"/>
+        <Class IRI="#111-011-小畜-乾下巽上-09"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2-九二-见龙在田，利见大人"/>
+        <Class IRI="#111-111-乾-乾下乾上-01"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2-九二-贞吉。"/>
+        <Class IRI="#111-100-大壮-乾下震上-34"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2-九二-需于沙，小有言，终吉"/>
+        <Class IRI="#111-010-需-乾下坎上-05"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2-六二-介于石，不终日，贞吉。"/>
+        <Class IRI="#000-100-豫-坤下震上-16"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2-六二-包成，小人吉，大人否亨。"/>
+        <Class IRI="#000-111-否-坤下乾上-12"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2-六二-同人于宗，吝。"/>
+        <Class IRI="#101-111-同人-离下乾上-13"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2-六二-屯如？如，乘马班如，匪寇婚媾，女子贞十字，十年乃字"/>
+        <Class IRI="#100-010-屯-震下坎上-03"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2-六二-执之用黄牛之革，莫之胜说。"/>
+        <Class IRI="#001-111-遯-艮下乾上-33"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2-六二-比之自内，贞吉"/>
+        <Class IRI="#000-010-比-坤下坎上-08"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2-六二-直方，大，不习，无不利"/>
+        <Class IRI="#000-000-坤-坤下坤上-02"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2-六二-系小子，失丈夫。"/>
+        <Class IRI="#100-110-随-震下兑上-17"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2-六二-鸣谦，贞吉。"/>
+        <Class IRI="#001-000-谦-艮下坤上-15"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2-夏"/>
+        <Class IRI="#四时"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2-夏"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#四时到节气"/>
+            <ObjectUnionOf>
+                <Class IRI="#07-立夏"/>
+                <Class IRI="#08-小满"/>
+                <Class IRI="#09-芒种"/>
+                <Class IRI="#10-夏至"/>
+                <Class IRI="#11-小暑"/>
+                <Class IRI="#12-大暑"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2-木"/>
+        <Class IRI="#五行"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2-木"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#五行到天干"/>
+            <ObjectUnionOf>
+                <Class IRI="#01-甲"/>
+                <Class IRI="#02-乙"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#20-小雪"/>
+        <Class IRI="#节气"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#20-小雪"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#节气到卦"/>
+            <ObjectUnionOf>
+                <Class IRI="#010-000-师-坎下坤上-07"/>
+                <Class IRI="#010-001-蒙-坎下艮上-04"/>
+                <Class IRI="#010-010-坎-坎下坎上-29"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#21-大雪"/>
+        <Class IRI="#节气"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#21-大雪"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#节气到卦"/>
+            <ObjectUnionOf>
+                <Class IRI="#001-101-旅-艮下离上-56"/>
+                <Class IRI="#001-110-咸-艮下兑上-31"/>
+                <Class IRI="#001-111-遯-艮下乾上-33"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#22-冬至"/>
+        <Class IRI="#节气"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#22-冬至"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#节气到卦"/>
+            <ObjectUnionOf>
+                <Class IRI="#001-011-渐-艮下巽上-53"/>
+                <Class IRI="#001-100-小过-艮下震上-62"/>
+                <Class IRI="#001-101-旅-艮下离上-56"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#23-小寒"/>
+        <Class IRI="#节气"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#23-小寒"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#节气到卦"/>
+            <ObjectUnionOf>
+                <Class IRI="#001-000-谦-艮下坤上-15"/>
+                <Class IRI="#001-001-艮-艮下艮上-52"/>
+                <Class IRI="#001-010-蹇-艮下坎上-39"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#24-大寒"/>
+        <Class IRI="#节气"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#24-大寒"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#节气到卦"/>
+            <ObjectUnionOf>
+                <Class IRI="#000-101-晋-坤下离上-35"/>
+                <Class IRI="#000-110-萃-坤下兑上-45"/>
+                <Class IRI="#000-111-否-坤下乾上-12"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3-九三-伏戎于莽，升其高陵，三岁不兴。"/>
+        <Class IRI="#101-111-同人-离下乾上-13"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3-九三-公用亨于天子，小人弗克。"/>
+        <Class IRI="#111-101-大有-乾下离上-14"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3-九三-劳谦，君子有终，吉。"/>
+        <Class IRI="#001-000-谦-艮下坤上-15"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3-九三-君子终日乾乾，夕惕若，厉，无咎"/>
+        <Class IRI="#111-111-乾-乾下乾上-01"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3-九三-小人用壮，君子用罔，贞厉，羝羊触藩，羸其角。"/>
+        <Class IRI="#111-100-大壮-乾下震上-34"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3-九三-干父之蛊，小有悔，无大咎。"/>
+        <Class IRI="#011-001-蛊-巽下艮上-18"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3-九三-无平不陂，无往不复，艰贞无咎，勿恤其孚，于食有福。"/>
+        <Class IRI="#111-000-泰-乾下坤上-11"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3-九三-系遯，有疾厉，畜臣妾吉。"/>
+        <Class IRI="#001-111-遯-艮下乾上-33"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3-九三-舆说辐，夫妻反目"/>
+        <Class IRI="#111-011-小畜-乾下巽上-09"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3-九三-需于泥，致寇至"/>
+        <Class IRI="#111-010-需-乾下坎上-05"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3-六三-勿用取女，见金夫，不有躬，无攸利"/>
+        <Class IRI="#010-001-蒙-坎下艮上-04"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3-六三-包羞。"/>
+        <Class IRI="#000-111-否-坤下乾上-12"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3-六三-即鹿无虞，惟入于林中，君子几，不如舍，往吝"/>
+        <Class IRI="#100-010-屯-震下坎上-03"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3-六三-含章可贞，或从王事，无成有终"/>
+        <Class IRI="#000-000-坤-坤下坤上-02"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3-六三-师或舆尸，凶"/>
+        <Class IRI="#010-000-师-坎下坤上-07"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3-六三-比之匪人"/>
+        <Class IRI="#000-010-比-坤下坎上-08"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3-六三-系丈夫，失小子。随有求得，利居贞。"/>
+        <Class IRI="#100-110-随-震下兑上-17"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3-六三-食旧德，贞厉，终吉，或从王事无成"/>
+        <Class IRI="#010-111-讼-坎下乾上-06"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3-水"/>
+        <Class IRI="#五行"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3-水"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#五行到天干"/>
+            <ObjectUnionOf>
+                <Class IRI="#09-壬"/>
+                <Class IRI="#10-癸"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3-秋"/>
+        <Class IRI="#四时"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3-秋"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#四时到节气"/>
+            <ObjectUnionOf>
+                <Class IRI="#13-立秋"/>
+                <Class IRI="#14-处暑"/>
+                <Class IRI="#15-白露"/>
+                <Class IRI="#16-秋分"/>
+                <Class IRI="#17-寒露"/>
+                <Class IRI="#18-霜降"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3-六三-盱(xu1)豫悔，迟有悔。"/>
+        <Class IRI="#000-100-豫-坤下震上-16"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3-六三-眇能视，跛(bo3)能履，履虎尾，咥(die2)人，凶，武人为于大君"/>
+        <Class IRI="#110-111-履-兑下乾上-10"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#4-九四-不克讼，复即命，渝安贞，吉"/>
+        <Class IRI="#010-111-讼-坎下乾上-06"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#4-九四-乘其墉，弗克攻，吉。"/>
+        <Class IRI="#101-111-同人-离下乾上-13"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#4-九四-匪其彭，无咎。"/>
+        <Class IRI="#111-101-大有-乾下离上-14"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#4-九四-好遯，君子吉，小人否。"/>
+        <Class IRI="#001-111-遯-艮下乾上-33"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#4-九四-或跃在渊，无咎"/>
+        <Class IRI="#111-111-乾-乾下乾上-01"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#4-九四-有命无咎，畴离祉。"/>
+        <Class IRI="#000-111-否-坤下乾上-12"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#4-九四-贞吉悔亡，藩决不羸。壮于大舆之輹。"/>
+        <Class IRI="#111-100-大壮-乾下震上-34"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#4-九四-随有获，贞凶。有孚在道，以明，何咎。"/>
+        <Class IRI="#100-110-随-震下兑上-17"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#4-六四-乘马班如，求婚媾，往吉，无不利"/>
+        <Class IRI="#100-010-屯-震下坎上-03"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#4-六四-困蒙，吝"/>
+        <Class IRI="#010-001-蒙-坎下艮上-04"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#4-六四-外比之，贞吉"/>
+        <Class IRI="#000-010-比-坤下坎上-08"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#4-六四-师左次无咎"/>
+        <Class IRI="#010-000-师-坎下坤上-07"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#4-六四-括囊，无咎无誉"/>
+        <Class IRI="#000-000-坤-坤下坤上-02"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#4-六四-有孚，血去惕出，无咎"/>
+        <Class IRI="#111-011-小畜-乾下巽上-09"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#4-六四-翩翩不富以其邻，不戒以孚。"/>
+        <Class IRI="#111-000-泰-乾下坤上-11"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#4-六四-裕父之蛊，往见吝。"/>
+        <Class IRI="#011-001-蛊-巽下艮上-18"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#4-六四-需于血，出自穴"/>
+        <Class IRI="#111-010-需-乾下坎上-05"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#4-冬"/>
+        <Class IRI="#四时"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#4-冬"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#四时到节气"/>
+            <ObjectUnionOf>
+                <Class IRI="#19-立冬"/>
+                <Class IRI="#20-小雪"/>
+                <Class IRI="#21-大雪"/>
+                <Class IRI="#22-冬至"/>
+                <Class IRI="#23-小寒"/>
+                <Class IRI="#24-大寒"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#4-火"/>
+        <Class IRI="#五行"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#4-火"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#五行到天干"/>
+            <ObjectUnionOf>
+                <Class IRI="#03-丙"/>
+                <Class IRI="#04-丁"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#4-九四-履虎尾，愬愬(su4)终吉"/>
+        <Class IRI="#110-111-履-兑下乾上-10"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#4-九四-由豫，大有得，勿疑，朋盍(he2)簪。"/>
+        <Class IRI="#000-100-豫-坤下震上-16"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#4-六四-无不利，㧑(wei2)谦。"/>
+        <Class IRI="#001-000-谦-艮下坤上-15"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#5-九五-休否，大人吉，其亡其亡，系于苞桑。"/>
+        <Class IRI="#000-111-否-坤下乾上-12"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#5-九五-嘉遯，贞吉。"/>
+        <Class IRI="#001-111-遯-艮下乾上-33"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#5-九五-孚于嘉，吉。"/>
+        <Class IRI="#100-110-随-震下兑上-17"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#5-九五-显比，王用三驱失前禽，邑人不诫，吉"/>
+        <Class IRI="#000-010-比-坤下坎上-08"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#5-九五-有孚挛如，富以其邻"/>
+        <Class IRI="#111-011-小畜-乾下巽上-09"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#5-九五-讼元吉"/>
+        <Class IRI="#010-111-讼-坎下乾上-06"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#5-九五-需于酒食，贞吉"/>
+        <Class IRI="#111-010-需-乾下坎上-05"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#5-九五-飞龙在天，利见大人"/>
+        <Class IRI="#111-111-乾-乾下乾上-01"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#5-六五-不富以其邻，利用侵伐，无不利。"/>
+        <Class IRI="#001-000-谦-艮下坤上-15"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#5-六五-丧羊于易，无悔。"/>
+        <Class IRI="#111-100-大壮-乾下震上-34"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#5-六五-屯其膏，小贞吉，大贞凶"/>
+        <Class IRI="#100-010-屯-震下坎上-03"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#5-六五-干父之蛊，用誉。"/>
+        <Class IRI="#011-001-蛊-巽下艮上-18"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#5-六五-田有禽，利执言，无咎。长子帅师，弟子舆尸，贞凶"/>
+        <Class IRI="#010-000-师-坎下坤上-07"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#5-六五-童蒙，吉"/>
+        <Class IRI="#010-001-蒙-坎下艮上-04"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#5-六五-贞疾，恒不死。"/>
+        <Class IRI="#000-100-豫-坤下震上-16"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#5-六五-黄裳，元吉"/>
+        <Class IRI="#000-000-坤-坤下坤上-02"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#5-土"/>
+        <Class IRI="#五行"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#5-土"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#五行到天干"/>
+            <ObjectUnionOf>
+                <Class IRI="#05-戊"/>
+                <Class IRI="#06-己"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#5-九五-同人先号咷(tao2)而后笑，大师克相遇。"/>
+        <Class IRI="#101-111-同人-离下乾上-13"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#5-九五-夬(guai4)履，贞厉"/>
+        <Class IRI="#110-111-履-兑下乾上-10"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#5-六五-厥(jue2)孚交如，威如，吉。"/>
+        <Class IRI="#111-101-大有-乾下离上-14"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#5-六五-帝乙归妹，以祉(zhi3)，元吉。"/>
+        <Class IRI="#111-000-泰-乾下坤上-11"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#6-上九-不事王侯，高尚其事。"/>
+        <Class IRI="#011-001-蛊-巽下艮上-18"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#6-上九-亢龙有悔"/>
+        <Class IRI="#111-111-乾-乾下乾上-01"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#6-上九-倾否，先否后喜。"/>
+        <Class IRI="#000-111-否-坤下乾上-12"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#6-上九-击蒙，不利为寇，利御寇"/>
+        <Class IRI="#010-001-蒙-坎下艮上-04"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#6-上九-同人于郊，无悔。"/>
+        <Class IRI="#101-111-同人-离下乾上-13"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#6-上九-既雨既处，尚德载，妇贞厉，月几望，君子征凶"/>
+        <Class IRI="#111-011-小畜-乾下巽上-09"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#6-上九-自天祐之，吉无不利。"/>
+        <Class IRI="#111-101-大有-乾下离上-14"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#6-上九-视履考祥，其旋元吉"/>
+        <Class IRI="#110-111-履-兑下乾上-10"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#6-上六-乘马班如，泣血涟如"/>
+        <Class IRI="#100-010-屯-震下坎上-03"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#6-上六-入于穴，有不速之客三人来，敬之终吉"/>
+        <Class IRI="#111-010-需-乾下坎上-05"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#6-上六-冥豫，成有渝，无咎。"/>
+        <Class IRI="#000-100-豫-坤下震上-16"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#6-上六-城复于隍，勿用师，自邑告命，贞吝。"/>
+        <Class IRI="#111-000-泰-乾下坤上-11"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#6-上六-大君有命，开国承家，小人勿用"/>
+        <Class IRI="#010-000-师-坎下坤上-07"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#6-上六-拘系之，乃从维之。王用亨于西山。"/>
+        <Class IRI="#100-110-随-震下兑上-17"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#6-上六-比之无首，凶"/>
+        <Class IRI="#000-010-比-坤下坎上-08"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#6-上六-羝羊触藩，不能退，不能遂，无攸利，艰则吉。"/>
+        <Class IRI="#111-100-大壮-乾下震上-34"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#6-上六-鸣谦，利用行师，征邑国。"/>
+        <Class IRI="#001-000-谦-艮下坤上-15"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#6-上六-龙战于野，其血玄黄"/>
+        <Class IRI="#000-000-坤-坤下坤上-02"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#6-九六-肥遯无不利。"/>
+        <Class IRI="#001-111-遯-艮下乾上-33"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#6-上九-或锡之鞶(pan2)带，终朝褫(chi3)之"/>
+        <Class IRI="#010-111-讼-坎下乾上-06"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#7-用九-见群龙无首，吉"/>
+        <Class IRI="#111-111-乾-乾下乾上-01"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#7-用六-利永贞"/>
+        <Class IRI="#000-000-坤-坤下坤上-02"/>
+    </SubClassOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#五行到天干"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#前序"/>
+        <ObjectProperty IRI="#后序"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#卦到节气"/>
+        <ObjectProperty IRI="#节气到卦"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#相对"/>
+    </FunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#相对"/>
+    </InverseFunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#五行到天干"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#五行到天干"/>
+            <Class IRI="#五行"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#卦到节气"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#卦到节气"/>
+            <Class IRI="#太极"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#四时到节气"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#四时到节气"/>
+            <Class IRI="#四时"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#地支到节气"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#地支到节气"/>
+            <Class IRI="#地支"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#天干到地支"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#天干到地支"/>
+            <Class IRI="#天干"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#节气到卦"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#节气到卦"/>
+            <Class IRI="#节气"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#五行到天干"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#五行到天干"/>
+            <Class IRI="#天干"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#卦到节气"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#四时到节气"/>
+            <Class IRI="#节气"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#四时到节气"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#四时到节气"/>
+            <Class IRI="#节气"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#地支到节气"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#地支到节气"/>
+            <Class IRI="#节气"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#天干到地支"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#天干到地支"/>
+            <Class IRI="#地支"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#节气到卦"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#节气到卦"/>
+            <Class IRI="#太极"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#太极</IRI>
+        <Literal>Reference image: https://www.nipic.com/show/7329763.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#0-坤（阴）</IRI>
+        <Literal>坤</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#000-000-坤-坤下坤上-02</IRI>
+        <Literal>坤下坤上</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#000-100-豫-坤下震上-16</IRI>
+        <Literal>《序卦传》说：&quot;有大而能谦必豫，故受之以豫。&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#000-101-晋-坤下离上-35</IRI>
+        <Literal>《卦序传》说：&quot;物不可以终壮，故受之以晋。晋者进也。&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#001-000-谦-艮下坤上-15</IRI>
+        <Literal>《序卦传》说：&quot;有大者不可以盈，姑受之以谦。&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#001-010-蹇-艮下坎上-39</IRI>
+        <Literal>读音：jian3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#001-111-遯-艮下乾上-33</IRI>
+        <Literal>《序卦传》说：&quot;恒者久也。物不可以久居其所，故受之以遯。&quot;
+读音：dun4（意同：遁）</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#010-坎-水（云）</IRI>
+        <Literal>坎义为险。</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#010-000-师-坎下坤上-07</IRI>
+        <Literal>原则：用君子不用小人</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#011-巽-风</IRI>
+        <Literal>读音：xun4</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#011-001-蛊-巽下艮上-18</IRI>
+        <Literal>《序卦传》说：&quot;以喜随人者必有事，故受之以蛊，蛊者事也。&quot;
+蛊，元亨，利涉大川。先甲三日，后甲三日。</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#1-乾（阳）</IRI>
+        <Literal>乾</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#100-震-雷</IRI>
+        <Literal>震义为动。</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#100-010-屯-震下坎上-03</IRI>
+        <Literal>《序卦传》说：&quot;有天地然后万物生焉。盈天地之间者唯万物，故受之以屯。屯者盈也。屯者物之始生也。&quot;
+屯，元亨利贞，勿用有攸往，利建侯。</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#100-110-随-震下兑上-17</IRI>
+        <Literal>《序卦传》说：&quot;豫必有随，故受之以随。&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#101-111-同人-离下乾上-13</IRI>
+        <Literal>《序卦传》说：&quot;物不可以终否，故受之以同人。&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#110-000-临-兑下坤上-19</IRI>
+        <Literal>《序卦传》说：&quot;蛊者事也，有事而后可大，故受之以临，临者大也。&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#111-011-小畜-乾下巽上-09</IRI>
+        <Literal>《序卦传》说：&quot;比必有所畜，故受之以小畜。&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#111-100-大壮-乾下震上-34</IRI>
+        <Literal>《序卦传》说：&quot;遯者退也。物不可以终遯，故受之以大壮。&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#111-101-大有-乾下离上-14</IRI>
+        <Literal>《序卦传》说：&quot;与人同者，物必归焉，故受之以大有。&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#111-110-夬-乾下兑上-43</IRI>
+        <Literal>读音：guai4</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#111-111-乾-乾下乾上-01</IRI>
+        <Literal>乾下乾上</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#7-用九-见群龙无首，吉</IRI>
+        <Literal>乾坤二卦与别的卦不同，六爻之后多出一个&quot;用九&quot;和&quot;用六&quot;。
+乾&apos;用九&apos;是说六爻全用九，不用七。
+坤&apos;用六&apos;是说六爻全用六，不用八。</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#7-用六-利永贞</IRI>
+        <Literal>乾坤二卦与别的卦不同，六爻之后多出一个&quot;用九&quot;和&quot;用六&quot;。
+乾&apos;用九&apos;是说六爻全用九，不用七。
+坤&apos;用六&apos;是说六爻全用六，不用八。</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
