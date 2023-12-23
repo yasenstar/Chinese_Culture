@@ -5,8 +5,44 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:chinese_prescription="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#主治 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#主治"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#功用 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#功用"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#用法 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#用法"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#组成 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#组成"/>
     
 
 
@@ -40,9 +76,35 @@
     
 
 
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#组分之 -->
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#功用 -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#组分之">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#功用">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#功用方剂"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#组分包括"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#方剂"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#组分包括"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#功用"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#功用方剂 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#功用方剂"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#组分于 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#组分于">
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#组分包括"/>
     </owl:ObjectProperty>
     
@@ -67,6 +129,32 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#附方 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#附方">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#附方于"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#组分包括"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#方剂"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#组分包括"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#方剂"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#附方于 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#附方于"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -75,6 +163,57 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#三拗汤 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#三拗汤">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#辛温解表剂"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#出处"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#太平惠民和剂局方"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#功用"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#宣肺"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#功用"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#解表"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#组分包括"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">6</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#杏仁"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#组分包括"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">6</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#甘草"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#组分包括"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">6</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#麻黄"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <chinese_prescription:主治>外感风寒，肺气不宣证。症见鼻塞声重，语音不出，咳嗽胸闷等。</chinese_prescription:主治>
+        <chinese_prescription:功用>宣肺解表</chinese_prescription:功用>
+        <chinese_prescription:用法>上㕮咀为粗末，每服五钱(15g)，水一盏半，姜五片，同煎至一盏，去滓，通口服。以衣被盖覆睡，取微汗为度。</chinese_prescription:用法>
+        <chinese_prescription:组成>甘草不炙　麻黄不去根节　杏仁不去皮尖，各等分（各6g）</chinese_prescription:组成>
+    </owl:Class>
     
 
 
@@ -118,6 +257,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#功用 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#功用"/>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#化湿和胃剂 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#化湿和胃剂">
@@ -129,6 +274,14 @@
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#医书 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#医书"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#发汗 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#发汗">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#功用"/>
+    </owl:Class>
     
 
 
@@ -180,6 +333,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#太平惠民和剂局方 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#太平惠民和剂局方">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#医书"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#安神剂 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#安神剂">
@@ -188,10 +349,26 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#宣肺 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#宣肺">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#功用"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#寒下剂 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#寒下剂">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#泻下剂"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#平喘 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#平喘">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#功用"/>
     </owl:Class>
     
 
@@ -232,6 +409,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#敛肺止咳剂">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#固涩剂"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#散寒 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#散寒">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#功用"/>
     </owl:Class>
     
 
@@ -522,9 +707,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#甘草炙 -->
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#甘草 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#甘草炙">
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#甘草">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#药材"/>
     </owl:Class>
     
@@ -534,6 +719,22 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#疏散外风剂">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#治风剂"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#白术 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#白术">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#药材"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#祛湿 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#祛湿">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#功用"/>
     </owl:Class>
     
 
@@ -632,6 +833,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#解表 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#解表">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#功用"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#解表剂 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#解表剂">
@@ -676,6 +885,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#辛温解表剂">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#解表剂"/>
+        <rdfs:comment>辛温解表剂，适用于风寒表证。代表方如麻黄汤、桂枝汤、九味羌活汤、小青龙汤等。</rdfs:comment>
     </owl:Class>
     
 
@@ -692,6 +902,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#重镇安神剂">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#安神剂"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#金匮要略 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#金匮要略">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#医书"/>
     </owl:Class>
     
 
@@ -720,21 +938,45 @@
     
 
 
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#麻黄汤 -->
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#麻黄加术汤 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#麻黄汤">
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#麻黄加术汤">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#辛温解表剂"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#出处"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#伤寒论"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#金匮要略"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#功用"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#发汗"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#功用"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#散寒"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#功用"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#祛湿"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#功用"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#解表"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#组分包括"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#甘草炙"/>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#甘草"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -758,6 +1000,93 @@
                 <owl:onClass rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#麻黄"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#组分包括"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">12</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#白术"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <chinese_prescription:主治>风寒湿痹证。症见身体疼烦，无汗等</chinese_prescription:主治>
+        <chinese_prescription:功用>发汗解表，散寒祛湿</chinese_prescription:功用>
+        <chinese_prescription:用法>上五味，以水九升，先煮麻黄，减二升，去上沫，内诸药，煮取二升半，去滓，温服八合，覆取微似汗。</chinese_prescription:用法>
+        <chinese_prescription:组成>麻黄去节，三两(9g)　桂枝去皮，二两(6g)　甘草炙，一两(3g)　杏仁去皮尖，七十个(9g)　白术四两(12g)</chinese_prescription:组成>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#麻黄汤 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#麻黄汤">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#辛温解表剂"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#出处"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#伤寒论"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#功用"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#发汗"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#功用"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#宣肺"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#功用"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#平喘"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#功用"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#解表"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#附方"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#三拗汤"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#组分包括"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#甘草"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#组分包括"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">6</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#桂枝"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#组分包括"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">9</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#杏仁"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#组分包括"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">9</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#麻黄"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <chinese_prescription:主治>外感风寒表实证。恶寒发热，头身疼痛，无汗而喘，舌苔薄白，脉浮紧。</chinese_prescription:主治>
+        <chinese_prescription:功用>发汗解表，宣肺平喘。</chinese_prescription:功用>
+        <chinese_prescription:用法>上四味，以水九升，先煮麻黄，减二升，去上沫，内诸药，煮取二升半，去滓，温服八合。覆取微似汗，不须啜粥，余如桂枝法将息（现代用法：水煎服，温覆取微汗）。</chinese_prescription:用法>
+        <chinese_prescription:组成>麻黄去节，三两(9g)　桂枝去皮，二两(6g)　杏仁去皮尖，七十个(9g)　甘草炙，一两(3g)</chinese_prescription:组成>
     </owl:Class>
     
 
