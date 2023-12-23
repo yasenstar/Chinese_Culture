@@ -1,4 +1,6 @@
-# Traditional Chinese Medicine 中医
+## Chinese Culture 中国文化传承
+
+## Traditional Chinese Medicine 中医
 
 Ontology analysis on Traditional Chinese Medicine (theory, prescription, material, method)
 
