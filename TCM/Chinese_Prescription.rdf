@@ -5,8 +5,7 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:chinese_prescription="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription"/>
     
 
@@ -760,34 +759,6 @@
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Individuals
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#杏仁_9克 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#杏仁_9克">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#杏仁"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#麻黄汤 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#麻黄汤">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#辛温解表剂"/>
-        <chinese_prescription:组分包括 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2023/12/chinese_prescription#杏仁_9克"/>
-    </owl:NamedIndividual>
     
 
 
