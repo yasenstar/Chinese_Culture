@@ -565,7 +565,10 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#人体系统"/>
         <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#小肠"/>
         <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#心"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#手太阳小肠经"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#手少阴心经"/>
         <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#脉"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#舌"/>
     </owl:NamedIndividual>
     
 
@@ -866,6 +869,12 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#肝系统">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#人体系统"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#目"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#筋"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#肝"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#胆"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#足厥阴肝经"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#足少阳胆经"/>
     </owl:NamedIndividual>
     
 
@@ -882,6 +891,12 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#肺系统">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#人体系统"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#大肠"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#手太阴肺经"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#手阳明大肠经"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#皮"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#肺"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#鼻"/>
     </owl:NamedIndividual>
     
 
@@ -898,6 +913,12 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#肾系统">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#人体系统"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#耳及二阴"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#肾"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#膀胱"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#足太阳膀胱经"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#足少阴肾经"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#骨"/>
     </owl:NamedIndividual>
     
 
@@ -948,6 +969,12 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#脾系统">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#人体系统"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#口"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#肉"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#胃"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#脾"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#足太阴脾经"/>
+        <tcm:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#足阳明胃经"/>
     </owl:NamedIndividual>
     
 
