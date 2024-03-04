@@ -130,6 +130,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#03_宋金元时期 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#03_宋金元时期">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#医学典籍"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#04_明清时期 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#04_明清时期">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#医学典籍"/>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -138,6 +154,32 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#三因方 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#三因方">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#03_宋金元时期"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#三因极一病证方论"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#三因极一病证方论 -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#三因极一病证方论"/>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#三因极一病证方论 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#三因极一病证方论">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#03_宋金元时期"/>
+        <tcm:authoredBy rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#陈言"/>
+        <tcm:writtenIn rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#13-02_南宋"/>
+        <rdfs:comment>《三因极一病证方论》（简称《三因方》），据张仲景“千般疢难，不越三条”的论点，结合临床实践与《内经》有关论述，将病因归纳为三大类：外感六淫为外因；七情内伤为内因；饮食所伤、叫呼伤气、虫兽所伤、跌打损伤、中毒、金疮等为不内外因。该书以病因与病证相结合的方法，系统阐述了三因理论，对后世病因学的发展影响极为深远。</rdfs:comment>
+    </owl:NamedIndividual>
     
 
 
@@ -173,6 +215,102 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#儒门事亲 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#儒门事亲">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#03_宋金元时期"/>
+        <tcm:authoredBy rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#张从正"/>
+        <tcm:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1224-01-01T00:00:00</tcm:publishYear>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#刘完素 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#刘完素">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
+        <rdfs:comment>刘完素（字守真，后人尊称刘河间）</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#千金翼方 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#千金翼方">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#02_魏晋隋唐时期"/>
+        <tcm:authoredBy rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#孙思邈"/>
+        <tcm:writtenIn rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#11_唐朝"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#吴有性 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#吴有性">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
+        <rdfs:comment>吴有性（字又可）</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#备急千金要方 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#备急千金要方">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#02_魏晋隋唐时期"/>
+        <tcm:authoredBy rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#孙思邈"/>
+        <tcm:writtenIn rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#11_唐朝"/>
+        <tcm:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">0652-01-01T00:00:00</tcm:publishYear>
+        <rdfs:comment>960—1368年
+宋金元时期是中国医学发展迅速、流派纷呈、建树颇多的时期，对后世医学发展影响很大。这一时期中药学、方剂学、针灸学、临床各科学等发展迅速，医药著作大量刊行，开始有国家组织编撰刊行中医药学著作，并开始研究处方、成药、经络腧穴的规范化。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#孙思邈 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#孙思邈">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#小儿药证直诀 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#小儿药证直诀">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#03_宋金元时期"/>
+        <tcm:authoredBy rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#钱乙"/>
+        <tcm:writtenIn rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#13-01_北宋"/>
+        <rdfs:comment>《小儿药证直诀》 ，该书系统论述了小儿体质、病机及治疗特点：体质“血气未实”“五脏六腑，成而未全，全而未壮”；病机“脏腑柔弱，易虚易实，易寒易热”；治疗强调补泻要同时调理以善其后。钱乙重要贡献在于丰富和完善了中医学脏腑证治，将五脏辨证方法运用于临床实践。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#巢元方 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#巢元方">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#张介宾 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#张介宾">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
+        <rdfs:comment>张介宾（字景岳）</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#张从正 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#张从正">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
+        <rdfs:comment>张从正（字子和，号戴人）</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#张仲景 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#张仲景">
@@ -182,10 +320,49 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#朱震亨 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#朱震亨">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
+        <rdfs:comment>朱震亨（字彦修，后人尊称朱丹溪）</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#李杲 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#李杲">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
+        <rdfs:comment>李杲（字明之，自号东垣老人，后人尊称李东垣）</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#杨柱 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#杨柱">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#格致余论 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#格致余论">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#03_宋金元时期"/>
+        <tcm:authoredBy rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#朱震亨"/>
+        <tcm:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1347-01-01T00:00:00</tcm:publishYear>
+        <rdfs:comment>1368—1911年
+明清时期是中医学理论的综合汇通和深化发展阶段。标志性成果是命门理论的发展、温病理论的创新，以及大量的医学全书、丛书及类书的编撰集成，丰富和发展了中医学理论体系。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#温疫论 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#温疫论">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#04_明清时期"/>
+        <tcm:authoredBy rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#吴有性"/>
     </owl:NamedIndividual>
     
 
@@ -214,6 +391,16 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#01_战国至两汉时期"/>
         <tcm:writtenIn rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#05-03_东汉"/>
         <rdfs:comment>《神农本草经》 简称《本草经》或《本经》，成书于东汉，为现存最早的中药学专著。《神农本草经》集秦汉时期众多医家搜集、整理、总结药物学经验成果的精华，全书载药365种，根据养生、治病和药物毒性分为上、中、下三品，上品之药无毒，主益气；中品之药有毒或无毒，主治病、补虚；下品之药有毒，主除病邪、破积聚。根据中药功效将中药分为寒、凉、温、热四性，以及酸、苦、甘、辛、咸五味，为中药学“四气五味”的药性理论的确立奠定了基础。书中明确了“治寒以热药，治热以寒药”的用药原则，将药理学与病机学密切结合，使中医学理论体系更加完善。同时，该书提出单行、相须、相使、相畏、相恶、相反、相杀等“七情和合”的药物配伍理论，为中药组方提供了重要理论依据。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#素问玄机原病式 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#素问玄机原病式">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#03_宋金元时期"/>
+        <tcm:authoredBy rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#刘完素"/>
+        <tcm:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1182-01-01T00:00:00</tcm:publishYear>
     </owl:NamedIndividual>
     
 
@@ -254,10 +441,41 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#脾胃论 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#脾胃论">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#03_宋金元时期"/>
+        <tcm:authoredBy rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#李杲"/>
+        <tcm:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1249-01-01T00:00:00</tcm:publishYear>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#葛洪 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#葛洪">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#诸病源候论 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#诸病源候论">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#02_魏晋隋唐时期"/>
+        <tcm:authoredBy rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#巢元方"/>
+        <tcm:writtenIn rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#07_晋朝"/>
+        <tcm:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">0610-01-01T00:00:00</tcm:publishYear>
+        <rdfs:comment>诸病源候论》 隋·巢元方著，成书于610年，为中医学第一部病因病机证候学专著。全书以1729论分述内、外、妇、儿、五官、皮肤等诸科病证的病因、病机和症状，尤重于病源的研究，如指出疥疮是由疥虫所致；“漆疮”的发生与体质有关；某些传染病是由自然界的“乖戾之气”引起。诸证之末多附有导引法，对疾病的调护起到指导作用。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#赵献可 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#赵献可">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
+        <rdfs:comment>赵献可（字养葵）</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -276,6 +494,25 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#02_魏晋隋唐时期"/>
         <tcm:authoredBy rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#皇甫谧"/>
         <tcm:writtenIn rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#07_晋朝"/>
+        <tcm:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">0259-01-01T00:00:00</tcm:publishYear>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#钱乙 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#钱乙">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
+        <rdfs:comment>钱乙（字仲阳）</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#陈言 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#陈言">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
+        <rdfs:comment>陈言（字无择）</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -718,6 +955,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#11_唐朝">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#中国朝代"/>
+        <tcm:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">0682-01-01T00:00:00</tcm:publishYear>
     </owl:NamedIndividual>
     
 
