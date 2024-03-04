@@ -195,6 +195,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#临证指南医案 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#临证指南医案">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#04_明清时期"/>
+        <tcm:authoredBy rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#叶桂"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#五十二病房 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#五十二病房">
@@ -244,11 +253,29 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#叶桂 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#叶桂">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
+        <rdfs:comment>叶桂（字天士，号香岩）</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#吴有性 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#吴有性">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
         <rdfs:comment>吴有性（字又可）</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#吴瑭 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#吴瑭">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
+        <rdfs:comment>吴瑭（字鞠通）</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -320,11 +347,31 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#本草纲目 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#本草纲目">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#04_明清时期"/>
+        <tcm:publishYear rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1578-01-01T00:00:00</tcm:publishYear>
+        <rdfs:comment>《本草纲目》（1578年），该书总结了明以前历代医药家在药物学方面的实践经验和药物理论，载中药1892种，分为16部60类，丰富了中国药物学的内容，对中医药学的发展具有卓越的贡献。同样，此书在世界医药学发展史上，也具有重要的地位，17世纪末，《本草纲目》即被译成拉丁文传入欧洲，以后又先后被译成日、英、德、朝鲜等多国文字，传播世界，产生举世瞩目的影响。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#朱震亨 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#朱震亨">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
         <rdfs:comment>朱震亨（字彦修，后人尊称朱丹溪）</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#李时珍 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#李时珍">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
+        <tcm:authored rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#本草纲目"/>
+        <rdfs:comment>李时珍（字东璧，晚号濒湖山人）</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -358,11 +405,46 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#温热经纬 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#温热经纬">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#04_明清时期"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#温热论 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#温热论">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#04_明清时期"/>
+        <tcm:authoredBy rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#叶桂"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#温疫论 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#温疫论">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#04_明清时期"/>
         <tcm:authoredBy rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#吴有性"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#温病条辨 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#温病条辨">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#04_明清时期"/>
+        <tcm:authoredBy rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#吴瑭"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#湿热条辨 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#湿热条辨">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#04_明清时期"/>
+        <tcm:authoredBy rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#薛雪"/>
     </owl:NamedIndividual>
     
 
@@ -373,6 +455,17 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
         <rdfs:comment>220—960年
 魏晋南北朝、隋唐至五代是中国医学发展史上承前启后的重要时期。中医学学科分化日趋成熟，医学理论与技术随着这一时期政治、经济、文化的发展而有新的提高，出现了众多名医名著，推动了中医学理论体系的发展和进步。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#王士雄 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#王士雄">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
+        <tcm:authored rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#温热经纬"/>
+        <tcm:authored rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#霍乱论"/>
+        <rdfs:comment>王士雄（字孟英，号潜斋，晚号梦隐）</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -459,6 +552,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#薛雪 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#薛雪">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#作者"/>
+        <rdfs:comment>薛雪（字生白）</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#诸病源候论 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#诸病源候论">
@@ -522,6 +624,14 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#难经">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#01_战国至两汉时期"/>
         <rdfs:comment>难经》 又称《黄帝八十一难经》，以问答解释疑难的形式编撰而成，约成书于东汉，传说为秦越人所作。</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#霍乱论 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#霍乱论">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/2/tcm#04_明清时期"/>
     </owl:NamedIndividual>
     
 
