@@ -39,9 +39,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#对应病证 -->
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#主治 -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#对应病证">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#主治">
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#应用方剂"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#方剂"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#病脉证"/>
@@ -3374,21 +3374,12 @@
     
 
 
-    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#BMZ041_伤寒，心下有水气，咳而微喘，发热不渴。服汤已，渴者，此寒去欲解也。小青龙汤主之。 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#BMZ041_伤寒，心下有水气，咳而微喘，发热不渴。服汤已，渴者，此寒去欲解也。小青龙汤主之。">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#病脉证"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#FJ0xx_小青龙汤方 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#FJ0xx_小青龙汤方">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#方剂"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#02_方剂"/>
-        <cn-medo:对应病证 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#BMZ040_伤寒表不解，心下有水气，干呕，发热而咳，或渴，或利，或噎，或小便不利，少腹满，或喘者，小青龙汤主之"/>
-        <cn-medo:对应病证 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#BMZ041_伤寒，心下有水气，咳而微喘，发热不渴。服汤已，渴者，此寒去欲解也。小青龙汤主之。"/>
+        <cn-medo:主治 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#BMZ040_伤寒表不解，心下有水气，干呕，发热而咳，或渴，或利，或噎，或小便不利，少腹满，或喘者，小青龙汤主之"/>
         <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#五味子_洗_半升"/>
         <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#半夏_洗_半升"/>
         <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#干姜_三两"/>
