@@ -1,0 +1,115 @@
+Date: 2024-04-02 21:51:28
+Ontology source: /D:/GitHub/Chinese_Culture/cn-medo.rdf
+Worksheet source: C:\Users\v0cn037\Documents\方剂01.xlsx
+Transformation rules: C:\Users\v0cn037\Documents\伤寒杂病论.json
+
+# Cell range: (方剂set1!A2:B27) Comment: ""
+# Individual: @A*
+# Types: @B*
+
+Individual: FJ0001_桂枝汤  # Generated from value "FJ0001_桂枝汤" located at cell '方剂set1'!A2.
+   Types: 方剂
+Individual: FJ0002_桂枝加葛根汤  # Generated from value "FJ0002_桂枝加葛根汤" located at cell '方剂set1'!A3.
+   Types: 方剂
+Individual: FJ0003_桂枝汤加厚朴杏子  # Generated from value "FJ0003_桂枝汤加厚朴杏子" located at cell '方剂set1'!A4.
+   Types: 方剂
+Individual: FJ0004_桂枝加附子汤  # Generated from value "FJ0004_桂枝加附子汤" located at cell '方剂set1'!A5.
+   Types: 方剂
+Individual: FJ0005_桂枝去芍药汤  # Generated from value "FJ0005_桂枝去芍药汤" located at cell '方剂set1'!A6.
+   Types: 方剂
+Individual: FJ0006_桂枝去芍药加附子汤  # Generated from value "FJ0006_桂枝去芍药加附子汤" located at cell '方剂set1'!A7.
+   Types: 方剂
+Individual: FJ0007_桂枝麻黄各半汤  # Generated from value "FJ0007_桂枝麻黄各半汤" located at cell '方剂set1'!A8.
+   Types: 方剂
+Individual: FJ0008_桂枝二麻黄—汤  # Generated from value "FJ0008_桂枝二麻黄—汤" located at cell '方剂set1'!A9.
+   Types: 方剂
+Individual: FJ0009_白虎加人参汤  # Generated from value "FJ0009_白虎加人参汤" located at cell '方剂set1'!A10.
+   Types: 方剂
+Individual: FJ0010_桂枝二越婢一汤  # Generated from value "FJ0010_桂枝二越婢一汤" located at cell '方剂set1'!A11.
+   Types: 方剂
+Individual: FJ0011_桂枝去桂加茯苓白术汤  # Generated from value "FJ0011_桂枝去桂加茯苓白术汤" located at cell '方剂set1'!A12.
+   Types: 方剂
+Individual: FJ0012_甘草干姜汤  # Generated from value "FJ0012_甘草干姜汤" located at cell '方剂set1'!A13.
+   Types: 方剂
+Individual: FJ0013_芍药甘草汤  # Generated from value "FJ0013_芍药甘草汤" located at cell '方剂set1'!A14.
+   Types: 方剂
+Individual: FJ0001_桂枝汤  # Generated from value "FJ0001_桂枝汤" located at cell '方剂set1'!A15.
+   Types: 01_方剂
+Individual: FJ0002_桂枝加葛根汤  # Generated from value "FJ0002_桂枝加葛根汤" located at cell '方剂set1'!A16.
+   Types: 01_方剂
+Individual: FJ0003_桂枝汤加厚朴杏子  # Generated from value "FJ0003_桂枝汤加厚朴杏子" located at cell '方剂set1'!A17.
+   Types: 01_方剂
+Individual: FJ0004_桂枝加附子汤  # Generated from value "FJ0004_桂枝加附子汤" located at cell '方剂set1'!A18.
+   Types: 01_方剂
+Individual: FJ0005_桂枝去芍药汤  # Generated from value "FJ0005_桂枝去芍药汤" located at cell '方剂set1'!A19.
+   Types: 01_方剂
+Individual: FJ0006_桂枝去芍药加附子汤  # Generated from value "FJ0006_桂枝去芍药加附子汤" located at cell '方剂set1'!A20.
+   Types: 01_方剂
+Individual: FJ0007_桂枝麻黄各半汤  # Generated from value "FJ0007_桂枝麻黄各半汤" located at cell '方剂set1'!A21.
+   Types: 01_方剂
+Individual: FJ0008_桂枝二麻黄—汤  # Generated from value "FJ0008_桂枝二麻黄—汤" located at cell '方剂set1'!A22.
+   Types: 01_方剂
+Individual: FJ0009_白虎加人参汤  # Generated from value "FJ0009_白虎加人参汤" located at cell '方剂set1'!A23.
+   Types: 01_方剂
+Individual: FJ0010_桂枝二越婢一汤  # Generated from value "FJ0010_桂枝二越婢一汤" located at cell '方剂set1'!A24.
+   Types: 01_方剂
+Individual: FJ0011_桂枝去桂加茯苓白术汤  # Generated from value "FJ0011_桂枝去桂加茯苓白术汤" located at cell '方剂set1'!A25.
+   Types: 01_方剂
+Individual: FJ0012_甘草干姜汤  # Generated from value "FJ0012_甘草干姜汤" located at cell '方剂set1'!A26.
+   Types: 01_方剂
+Individual: FJ0013_芍药甘草汤  # Generated from value "FJ0013_芍药甘草汤" located at cell '方剂set1'!A27.
+   Types: 01_方剂
+Individual: FJ0001_桂枝汤  # Generated from value "FJ0001_桂枝汤" located at cell '方剂set1'!A2.
+   Types: 方剂
+Individual: FJ0002_桂枝加葛根汤  # Generated from value "FJ0002_桂枝加葛根汤" located at cell '方剂set1'!A3.
+   Types: 方剂
+Individual: FJ0003_桂枝汤加厚朴杏子  # Generated from value "FJ0003_桂枝汤加厚朴杏子" located at cell '方剂set1'!A4.
+   Types: 方剂
+Individual: FJ0004_桂枝加附子汤  # Generated from value "FJ0004_桂枝加附子汤" located at cell '方剂set1'!A5.
+   Types: 方剂
+Individual: FJ0005_桂枝去芍药汤  # Generated from value "FJ0005_桂枝去芍药汤" located at cell '方剂set1'!A6.
+   Types: 方剂
+Individual: FJ0006_桂枝去芍药加附子汤  # Generated from value "FJ0006_桂枝去芍药加附子汤" located at cell '方剂set1'!A7.
+   Types: 方剂
+Individual: FJ0007_桂枝麻黄各半汤  # Generated from value "FJ0007_桂枝麻黄各半汤" located at cell '方剂set1'!A8.
+   Types: 方剂
+Individual: FJ0008_桂枝二麻黄—汤  # Generated from value "FJ0008_桂枝二麻黄—汤" located at cell '方剂set1'!A9.
+   Types: 方剂
+Individual: FJ0009_白虎加人参汤  # Generated from value "FJ0009_白虎加人参汤" located at cell '方剂set1'!A10.
+   Types: 方剂
+Individual: FJ0010_桂枝二越婢一汤  # Generated from value "FJ0010_桂枝二越婢一汤" located at cell '方剂set1'!A11.
+   Types: 方剂
+Individual: FJ0011_桂枝去桂加茯苓白术汤  # Generated from value "FJ0011_桂枝去桂加茯苓白术汤" located at cell '方剂set1'!A12.
+   Types: 方剂
+Individual: FJ0012_甘草干姜汤  # Generated from value "FJ0012_甘草干姜汤" located at cell '方剂set1'!A13.
+   Types: 方剂
+Individual: FJ0013_芍药甘草汤  # Generated from value "FJ0013_芍药甘草汤" located at cell '方剂set1'!A14.
+   Types: 方剂
+Individual: FJ0001_桂枝汤  # Generated from value "FJ0001_桂枝汤" located at cell '方剂set1'!A15.
+   Types: 01_方剂
+Individual: FJ0002_桂枝加葛根汤  # Generated from value "FJ0002_桂枝加葛根汤" located at cell '方剂set1'!A16.
+   Types: 01_方剂
+Individual: FJ0003_桂枝汤加厚朴杏子  # Generated from value "FJ0003_桂枝汤加厚朴杏子" located at cell '方剂set1'!A17.
+   Types: 01_方剂
+Individual: FJ0004_桂枝加附子汤  # Generated from value "FJ0004_桂枝加附子汤" located at cell '方剂set1'!A18.
+   Types: 01_方剂
+Individual: FJ0005_桂枝去芍药汤  # Generated from value "FJ0005_桂枝去芍药汤" located at cell '方剂set1'!A19.
+   Types: 01_方剂
+Individual: FJ0006_桂枝去芍药加附子汤  # Generated from value "FJ0006_桂枝去芍药加附子汤" located at cell '方剂set1'!A20.
+   Types: 01_方剂
+Individual: FJ0007_桂枝麻黄各半汤  # Generated from value "FJ0007_桂枝麻黄各半汤" located at cell '方剂set1'!A21.
+   Types: 01_方剂
+Individual: FJ0008_桂枝二麻黄—汤  # Generated from value "FJ0008_桂枝二麻黄—汤" located at cell '方剂set1'!A22.
+   Types: 01_方剂
+Individual: FJ0009_白虎加人参汤  # Generated from value "FJ0009_白虎加人参汤" located at cell '方剂set1'!A23.
+   Types: 01_方剂
+Individual: FJ0010_桂枝二越婢一汤  # Generated from value "FJ0010_桂枝二越婢一汤" located at cell '方剂set1'!A24.
+   Types: 01_方剂
+Individual: FJ0011_桂枝去桂加茯苓白术汤  # Generated from value "FJ0011_桂枝去桂加茯苓白术汤" located at cell '方剂set1'!A25.
+   Types: 01_方剂
+Individual: FJ0012_甘草干姜汤  # Generated from value "FJ0012_甘草干姜汤" located at cell '方剂set1'!A26.
+   Types: 01_方剂
+Individual: FJ0013_芍药甘草汤  # Generated from value "FJ0013_芍药甘草汤" located at cell '方剂set1'!A27.
+   Types: 01_方剂
+
+===========================================================================================================
