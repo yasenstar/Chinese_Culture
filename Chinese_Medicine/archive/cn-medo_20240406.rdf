@@ -39,23 +39,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#includedBy -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#includedBy">
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#includes"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#includes -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#includes">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#方剂"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#神农本草经"/>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#相关方剂 -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#相关方剂">
@@ -70,6 +53,22 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#方剂"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#病脉证"/>
     </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#组分 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#组分">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#组分于"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#方剂"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#神农本草经"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#组分于 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#组分于"/>
     
 
 
@@ -1609,14 +1608,6 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白头翁">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下草"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白术 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白术">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#其他"/>
     </owl:Class>
     
 
@@ -3673,7 +3664,6 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#BMZ028_服桂枝汤，或下之，仍头项强痛，翕翕发热，无汗，心下满微痛，小便不利者，桂枝去桂加茯苓白术汤主之。">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#病脉证"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#01_病脉证"/>
-        <cn-medo:相关方剂 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#FJ0010_桂枝去桂加茯苓白术汤"/>
     </owl:NamedIndividual>
     
 
@@ -3683,7 +3673,6 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#BMZ029_伤寒，脉浮，自汗出，小便数，心烦，微恶寒，脚挛急，反与桂枝，欲攻其表，此误也。得之便厥，咽中干，烦躁，吐逆者，作甘草干姜汤与之，以复其阳；若厥愈足温者，更作芍药甘草汤与之，其脚即伸；若胃气不和，谵语者，少与调胃承气汤；若重发汗，复加烧针者，四逆汤主之。">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#病脉证"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#01_病脉证"/>
-        <cn-medo:相关方剂 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#FJ0012_芍药甘草汤"/>
     </owl:NamedIndividual>
     
 
@@ -3693,8 +3682,6 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#BMZ030_厥逆，咽中干，烦躁，阳明内结，谵语烦乱，更饮甘草干姜汤，夜半阳气还，两足当热。胫尚微拘急，重与芍药甘草汤，尔乃胫伸。以承气汤微溏，则止其谵语，故知病可愈。">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#病脉证"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#01_病脉证"/>
-        <cn-medo:相关方剂 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#FJ0011_甘草干姜汤"/>
-        <cn-medo:相关方剂 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#FJ0012_芍药甘草汤"/>
     </owl:NamedIndividual>
     
 
@@ -3721,13 +3708,13 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#FJ0001_桂枝汤">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#方剂"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#01_方剂"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#大枣_十二枚_擘"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#桂枝_三两_去皮"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#甘草_二两_炙"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#生姜_三两_切"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#芍药_三两"/>
         <cn-medo:相关病证 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#BMZ012_太阳中风，阳浮而阴弱，阳浮者，热自发；阴弱者，汗自出。啬啬恶寒，浙浙恶风，翕翕发热，鼻鸣干呕者，桂枝汤主之。"/>
         <cn-medo:相关病证 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#BMZ013_太阳病，头痛，发热，汗出，恶风，桂枝汤主之。"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#大枣_十二枚_擘"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#桂枝_三两_去皮"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#甘草_二两_炙"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#生姜_三两_切"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#芍药_三两"/>
         <cn-medo:方剂制法>上五味，㕮咀三味，以水七升，微火煮取三升，去滓，适寒温，服一升。服已须臾，啜热稀粥一升余，以助药力。温覆令一时许，遍身漐漐微似有汗者益佳，不可令如水流漓，病必不除。若一服汗出病差，停后服，不必尽剂。若不汗，更服依前法。又不汗，后服小促其间。半日许，令三服尽。若病重者，一日一夜服，周时观之。服一剂尽，病证犹在者，更作服。若汗不出，乃服至二三剂。禁生冷、黏滑、肉面、五辛、酒酪、臭恶等物。</cn-medo:方剂制法>
     </owl:NamedIndividual>
     
@@ -3738,14 +3725,14 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#FJ0002_桂枝加葛根汤">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#方剂"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#01_方剂"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#大枣_十二枚_擘"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#桂枝_二两_去皮"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#甘草_二两_炙"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#生姜_三两_切"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#芍药_二两"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#葛根_四两"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#麻黄_三两_去节"/>
         <cn-medo:相关病证 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#BMZ014_太阳病，项背强几几，反汗出恶风者，桂枝加葛根汤主之。"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#大枣_十二枚_擘"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#桂枝_二两_去皮"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#甘草_二两_炙"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#生姜_三两_切"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#芍药_二两"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#葛根_四两"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#麻黄_三两_去节"/>
         <cn-medo:方剂制法>上七味，以水一斗，先煮麻黄、葛根，减二升，去上沫，内诸药，煮取三升，去滓。温服一升，覆取微似汗，不须啜粥，余如桂枝法将息及禁忌。</cn-medo:方剂制法>
         <rdfs:comment>臣亿等谨按：仲景本论，太阳中风自汗用桂枝，伤寒无汗用麻黄，今证云汗出恶风，而方中有麻黄，恐非本意也。第三卷有葛根汤证，云无汗、恶风，正与此方同，是合用麻黄也。此云桂枝加葛根汤，恐是桂枝中但加葛根耳。</rdfs:comment>
     </owl:NamedIndividual>
@@ -3757,12 +3744,12 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#FJ0003_桂枝加附子汤">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#方剂"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#01_方剂"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#大枣_十二枚_擘"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#桂枝_三两_去皮"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#甘草_三两_炙"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#生姜_三两_切"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#芍药_三两"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#附子_一枚_炮，去皮，破八片"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#大枣_十二枚_擘"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#桂枝_三两_去皮"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#甘草_三两_炙"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#生姜_三两_切"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#芍药_三两"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#附子_一枚_炮，去皮，破八片"/>
         <cn-medo:方剂制法>上六味，以水七升，煮取三升，去滓，温服一升。本云桂枝汤，今加附子。将息如前法。</cn-medo:方剂制法>
     </owl:NamedIndividual>
     
@@ -3773,11 +3760,11 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#FJ0004_桂枝去芍药汤">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#方剂"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#01_方剂"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#大枣_十二枚_擘"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#桂枝_三两_去皮"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#甘草_二两_炙"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#生姜_三两_切"/>
         <cn-medo:相关病证 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#BMZ021_太阳病，下之后，脉促胸满者，桂枝去芍药汤主之。"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#大枣_十二枚_擘"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#桂枝_三两_去皮"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#甘草_二两_炙"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#生姜_三两_切"/>
         <cn-medo:方剂制法>上四味，以水七升，煮取三升，去滓，温服一升。本云桂枝汤，今去芍药。将息如前法。</cn-medo:方剂制法>
     </owl:NamedIndividual>
     
@@ -3788,12 +3775,12 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#FJ0005_桂枝去芍药加附子汤">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#方剂"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#01_方剂"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#大枣_十二枚_擘"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#桂枝_三两_去皮"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#甘草_二两_炙"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#生姜_三两_切"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#附子_一枚_炮，去皮，破八片"/>
         <cn-medo:相关病证 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#BMZ022_若微，寒者，桂枝去芍药加附子汤主之。"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#大枣_十二枚_擘"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#桂枝_三两_去皮"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#甘草_二两_炙"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#生姜_三两_切"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#附子_一枚_炮，去皮，破八片"/>
         <cn-medo:方剂制法>上五味，以水七升，煮取三升，去滓，温服一升。本云桂枝汤，今去芍药加附子。将息如前法。</cn-medo:方剂制法>
     </owl:NamedIndividual>
     
@@ -3804,14 +3791,14 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#FJ0006_桂枝麻黄各半汤">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#方剂"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#01_方剂"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#大枣_四枚_擘"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#杏仁_二十四枚_汤浸，去皮尖及两仁者"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#桂枝_一两十六铢_去皮"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#甘草_一两_炙"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#生姜_一两_切"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#芍药_一两"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#麻黄_一两_去节"/>
         <cn-medo:相关病证 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#BMZ023_太阳病，得之八九日，如疟状，发热恶寒，热多寒少，其人不呕，清便欲自可，一日二三度发。脉微缓者，为欲愈也；脉微而恶寒者，此阴阳俱虚，不可更发汗、更下、更吐也；面色反有热色者，未欲解也，以其不能得小汗出，身必痒，宜桂枝麻黄各半汤。"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#大枣_四枚_擘"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#杏仁_二十四枚_汤浸，去皮尖及两仁者"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#桂枝_一两十六铢_去皮"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#甘草_一两_炙"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#生姜_一两_切"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#芍药_一两"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#麻黄_一两_去节"/>
         <cn-medo:方剂制法>上七味，以水五升，先煮麻黄一二沸，去上沫，内诸药，煮取一升八合，去滓，温服六合。本云桂枝汤三合，麻黄汤三合，并为六合，顿服。将息如上法。</cn-medo:方剂制法>
         <rdfs:comment>臣亿等谨按：桂枝汤方，桂枝、芍药、生姜各三两，甘草二两，大枣十二枚。麻黄汤方，麻黄三两，桂枝二两，甘草一两，杏仁七十个。今以算法约之，二汤各取三分之一，即得桂枝一两十六铢，芍药、生姜、甘草各一两，大枣四枚，杏仁二十三个零三分枚之一，收之得二十四个，合方。详此方乃三分之一，非各半也，宜云合半汤。</rdfs:comment>
     </owl:NamedIndividual>
@@ -3823,11 +3810,11 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#FJ0008_白虎加人参汤">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#方剂"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#01_方剂"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#人参_三两"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#甘草_二两_炙"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#知母_六两"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#石膏_一斤_碎，绵裹"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#粳米_六合"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#人参_三两"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#甘草_二两_炙"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#知母_六两"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#石膏_一斤_碎，绵裹"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#粳米_六合"/>
         <cn-medo:方剂制法>上五味，以水一斗，煮米熟汤成，去滓，温服一升，日三服。</cn-medo:方剂制法>
     </owl:NamedIndividual>
     
@@ -3838,13 +3825,13 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#FJ0009_桂枝二越婢一汤">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#方剂"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#01_方剂"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#大枣_四枚_擘"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#桂枝_十八铢_去皮"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#甘草_十八铢_炙"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#生姜_一两二铢_切"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#石膏_二十四铢_碎，绵裹"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#芍药_十八铢"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#麻黄_十八铢"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#大枣_四枚_擘"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#桂枝_十八铢_去皮"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#甘草_十八铢_炙"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#生姜_一两二铢_切"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#石膏_二十四铢_碎，绵裹"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#芍药_十八铢"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#麻黄_十八铢"/>
         <cn-medo:方剂制法>上七味，以水五升，煮麻黄一二沸，去上沫，内诸药，煮取二升，去滓，温服一升。本云当裁为越婢汤、桂枝汤合之，饮一升。今合为一方，桂枝汤二分，越婢汤一分。</cn-medo:方剂制法>
         <rdfs:comment>臣亿等谨按：桂枝汤方，桂枝、芍药、生姜各三两，甘草二两，大枣十二枚。越婢汤方，麻黄二两，生姜三两，甘草二两，石膏半斤，大枣十五枚。今以算法约之，桂枝汤取四分之一，即得桂枝、芍药、生姜各十八铢，甘草十二铢，大枣三枚。越婢汤取八分之一，即得麻黄十八铢，生姜九铢，甘草六铢，石膏二十四铢，大枣一枚八分之七，弃之。二汤所取相合，即共得桂枝、芍药、甘草、麻黄各十八铢，生姜一两三铢，石膏二十四铢，大枣四枚，合方。旧云，桂枝三，今取四分之一，即当云桂枝二也。越婢汤方，见仲景杂方中，《外台秘要》一云起脾汤。</rdfs:comment>
     </owl:NamedIndividual>
@@ -3856,13 +3843,6 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#FJ0010_桂枝去桂加茯苓白术汤">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#方剂"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#01_方剂"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#大枣_十二枚_擘"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#甘草_二两_炙"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#生姜_三两_切"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白术_三两"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#芍药_三两"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#茯苓_三两"/>
-        <cn-medo:方剂制法>上六味，以水八升，煮取三升，去滓，温服一升，小便利则愈。本云桂枝汤，今去桂枝，加茯苓、白术。</cn-medo:方剂制法>
     </owl:NamedIndividual>
     
 
@@ -3872,10 +3852,6 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#FJ0011_甘草干姜汤">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#方剂"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#01_方剂"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#干姜_二两"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#甘草_四两_炙"/>
-        <cn-medo:相关病证 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#BMZ029_伤寒，脉浮，自汗出，小便数，心烦，微恶寒，脚挛急，反与桂枝，欲攻其表，此误也。得之便厥，咽中干，烦躁，吐逆者，作甘草干姜汤与之，以复其阳；若厥愈足温者，更作芍药甘草汤与之，其脚即伸；若胃气不和，谵语者，少与调胃承气汤；若重发汗，复加烧针者，四逆汤主之。"/>
-        <cn-medo:方剂制法>上二味，以水三升，煮取一升五合，去滓，分温再服</cn-medo:方剂制法>
     </owl:NamedIndividual>
     
 
@@ -3885,9 +3861,6 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#FJ0012_芍药甘草汤">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#方剂"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#01_方剂"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#甘草_四两_炙"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白芍药_四两"/>
-        <cn-medo:方剂制法>上二味，以水三升，煮取一升五合，去滓，分温再服</cn-medo:方剂制法>
     </owl:NamedIndividual>
     
 
@@ -3897,37 +3870,26 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#FJ0xx_小青龙汤方">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#方剂"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#02_方剂"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#五味子_半升_洗"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#半夏_半升_洗"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#干姜_三两"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#桂枝_三两_去皮"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#甘草_三两_炙"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#细辛_三两"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#芍药_三两"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#麻黄_三两_去节"/>
         <cn-medo:相关病证 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#BMZ040_伤寒表不解，心下有水气，干呕，发热而咳，或渴，或利，或噎，或小便不利，少腹满，或喘者，小青龙汤主之"/>
         <cn-medo:相关病证 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#BMZ041_伤寒，心下有水气，咳而微喘，发热不渴。服汤已，渴者，此寒去欲解也。小青龙汤主之。"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#五味子_半升_洗"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#半夏_半升_洗"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#干姜_三两"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#桂枝_三两_去皮"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#甘草_三两_炙"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#细辛_三两"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#芍药_三两"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#麻黄_三两_去节"/>
         <cn-medo:方剂制法>上八味，以水一斗，先煮麻黄，减二升，去上沫，内诸药，煮取三升，去滓，温服一升。若渴，去半夏，加栝楼根三两；若微利，去麻黄，加荛花，如一鸡子，熬令赤色；若噎者，去麻黄，加附子一枚，炮；若小便不利，少腹满者，去麻黄，加茯苓四两；若喘，去麻黄，加杏仁半升，去皮尖。且荛花不治利，麻黄主喘，今此语反之，疑非仲景意。</cn-medo:方剂制法>
         <rdfs:comment>臣亿等谨按：小青龙汤，大要治水。又按《本草》，荛花下十二水，若水去，利则止也。又按《千金》，形肿者应内麻黄，乃内杏仁者，以麻黄发其阳故也。以此证之，岂非仲景意也。</rdfs:comment>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#FJxxxx_四逆汤 -->
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#FJxxxx_TBD -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#FJxxxx_四逆汤">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#FJxxxx_TBD">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#方剂"/>
-        <cn-medo:相关病证 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#BMZ029_伤寒，脉浮，自汗出，小便数，心烦，微恶寒，脚挛急，反与桂枝，欲攻其表，此误也。得之便厥，咽中干，烦躁，吐逆者，作甘草干姜汤与之，以复其阳；若厥愈足温者，更作芍药甘草汤与之，其脚即伸；若胃气不和，谵语者，少与调胃承气汤；若重发汗，复加烧针者，四逆汤主之。"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#FJxxxx_调胃承气汤 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#FJxxxx_调胃承气汤">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#方剂"/>
-        <cn-medo:相关病证 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#BMZ029_伤寒，脉浮，自汗出，小便数，心烦，微恶寒，脚挛急，反与桂枝，欲攻其表，此误也。得之便厥，咽中干，烦躁，吐逆者，作甘草干姜汤与之，以复其阳；若厥愈足温者，更作芍药甘草汤与之，其脚即伸；若胃气不和，谵语者，少与调胃承气汤；若重发汗，复加烧针者，四逆汤主之。"/>
-        <cn-medo:相关病证 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#BMZ030_厥逆，咽中干，烦躁，阳明内结，谵语烦乱，更饮甘草干姜汤，夜半阳气还，两足当热。胫尚微拘急，重与芍药甘草汤，尔乃胫伸。以承气汤微溏，则止其谵语，故知病可愈。"/>
     </owl:NamedIndividual>
     
 
@@ -3983,14 +3945,6 @@
     <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#干姜_三两 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#干姜_三两">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#干姜"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#干姜_二两 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#干姜_二两">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#干姜"/>
     </owl:NamedIndividual>
     
@@ -4092,14 +4046,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#甘草_四两_炙 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#甘草_四两_炙">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#甘草"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#生姜_一两_切 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#生姜_一两_切">
@@ -4128,22 +4074,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#生姜_三两_切">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#干姜"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白术_三两 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白术_三两">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白术"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白芍药_四两 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#白芍药_四两">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#芍药"/>
     </owl:NamedIndividual>
     
 
@@ -4228,14 +4158,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#茯苓_三两 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#茯苓_三两">
-        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#茯苓"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#葛根_四两 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#葛根_四两">
@@ -4289,13 +4211,13 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#FJ0007_桂枝二麻黄—汤">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#方剂"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#01_方剂"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#大枣_五枚_擘"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#杏仁_十六个_去皮尖"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#桂枝_一两十七铢_去皮"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#甘草_一两二铢_炙"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#生姜_一两六铢_切"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#芍药_一两六铢"/>
-        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#麻黄_十六铢_去节"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#大枣_五枚_擘"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#杏仁_十六个_去皮尖"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#桂枝_一两十七铢_去皮"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#甘草_一两二铢_炙"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#生姜_一两六铢_切"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#芍药_一两六铢"/>
+        <cn-medo:组分 rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#麻黄_十六铢_去节"/>
         <cn-medo:方剂制法>上七味，以水五升，先煮麻黄一二沸，去上沫，内诸药，煮取二升，去滓，温服一升，日再服。本云桂枝汤二分，麻黄汤一分，合为二升，分再服。今合为一方，将息如前法。</cn-medo:方剂制法>
         <rdfs:comment>臣亿等谨按：桂枝汤方，桂枝、芍药、生姜各三两，甘草二两，大枣十二枚。麻黄汤方，麻黄三两，桂枝二两，甘草一两，杏仁七十个。今以算法约之，桂枝汤取十二分之五，即得桂枝、芍药、生姜各一两六铢，甘草二十铢，大枣五枚。麻黄汤取九分之二，即得麻黄十六铢，桂枝十铢三分铢之二，收之得十一铢，甘草五铢三分铢之一，收之得六铢，杏仁十五个九分枚之四，收之得十六个。二汤所取相合，即共得桂枝一两十七铢，麻黄十六铢，生姜、芍药各一两六铢，甘草一两二铢，大枣五枚，杏仁十六个，合方。</rdfs:comment>
     </owl:NamedIndividual>
