@@ -3892,9 +3892,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#FJ0xx_小青龙汤方 -->
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#FJ0xx_小青龙汤 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#FJ0xx_小青龙汤方">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#FJ0xx_小青龙汤">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#方剂"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#02_方剂"/>
         <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#五味子_半升_洗"/>
