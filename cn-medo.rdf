@@ -2852,6 +2852,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#金匮要略 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#金匮要略"/>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#钩吻 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#钩吻">
@@ -3334,6 +3340,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#02_辨太阳病脉证并治-中">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#伤寒杂病论"/>
+        <rdfs:seeAlso>并见太阳阳明合病法</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -3342,6 +3349,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#03_辨太阳病脉证并治-下">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#伤寒杂病论"/>
+        <rdfs:seeAlso>并见太阳少阳合病法</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -3350,6 +3358,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#04_辨阳明病脉证并治">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#伤寒杂病论"/>
+        <rdfs:seeAlso>并见阳明少阳合病法</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -3358,6 +3367,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#05_辨少阳病脉证并治">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#伤寒杂病论"/>
+        <rdfs:seeAlso>并见三阳合病法</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -3382,6 +3392,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#08_辨厥阴病脉证并治">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#伤寒杂病论"/>
+        <rdfs:seeAlso>厥利呕哕附</rdfs:seeAlso>
     </owl:Class>
     
 
