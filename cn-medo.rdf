@@ -5198,6 +5198,7 @@
             <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#上经"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#下经"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中经"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#其他"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
