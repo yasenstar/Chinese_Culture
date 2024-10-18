@@ -1,6 +1,6 @@
 @startuml
 
-title "山海经-第三层"
+title "山海经-第二层"
 
 skinparam packageStyle rectangle
 
@@ -36,25 +36,6 @@ rectangle 西山经 {
 }
 
 rectangle 南山经 {
-    rectangle 南山之首䧿山 {
-        (招摇山)-right->(堂庭山):东三百里
-        (堂庭山)-right->(猨翼山):东三百八十里
-        (猨翼山)-right->(杻阳山):东三百七十里
-        (杻阳山)-right->(柢山):东三百里
-        (柢山)-right->(亶爰山):东四百里
-        (亶爰山)-right->(基山):东三百里
-        (基山)-right->(青丘山):东三百里
-        (青丘山)-right->(箕尾山):东三百五十里
-    }
-
-    rectangle 南次二山 {
-
-    }
-
-    rectangle 南次三山 {
-        
-    }
-
     (南山之首䧿山)-down->(南次二山)
     (南次二山)-down->(南次三山)
 }
