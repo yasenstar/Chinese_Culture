@@ -413,6 +413,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#产品 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#产品"/>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#人参 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#人参">
@@ -2008,6 +2014,12 @@
     <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#紫葳">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#中木"/>
     </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#组分 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#组分"/>
     
 
 
@@ -4799,6 +4811,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#PEG-6失水山梨醇油酸酯 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#PEG-6失水山梨醇油酸酯">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#组分"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#五味子_半升_洗 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#五味子_半升_洗">
@@ -4847,6 +4867,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#尿囊素 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#尿囊素">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#组分"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#干姜_三两 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#干姜_三两">
@@ -4859,6 +4887,22 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#干姜_二两">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#干姜"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#月桂酸 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#月桂酸">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#组分"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#月桂醇磷酸酯钾 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#月桂醇磷酸酯钾">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#组分"/>
     </owl:NamedIndividual>
     
 
@@ -4915,6 +4959,30 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#桂枝_十八铢_去皮">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#牡桂"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#棕榈酸 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#棕榈酸">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#组分"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#甘油 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#甘油">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#组分"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#甘油硬脂酸酯 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#甘油硬脂酸酯">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#组分"/>
     </owl:NamedIndividual>
     
 
@@ -5039,6 +5107,30 @@
     
 
 
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#矿油 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#矿油">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#组分"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#矿脂 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#矿脂">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#组分"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#硬脂酸甘油脂类 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#硬脂酸甘油脂类">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#组分"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#粳米_六合 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#粳米_六合">
@@ -5051,6 +5143,38 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#细辛_三两">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#细辛"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#羟苯丙酯 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#羟苯丙酯">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#组分"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#羟苯甲脂 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#羟苯甲脂">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#组分"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#聚丙烯酸胺 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#聚丙烯酸胺">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#组分"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#肉豆蔻酸 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#肉豆蔻酸">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#组分"/>
     </owl:NamedIndividual>
     
 
@@ -5115,6 +5239,55 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#附子_一枚_炮，去皮，破八片">
         <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#附子"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#香精 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#香精">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#组分"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#马油防冻防裂滋润霜 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#马油防冻防裂滋润霜">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#产品"/>
+        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#PEG-6失水山梨醇油酸酯"/>
+        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#尿囊素"/>
+        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#月桂酸"/>
+        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#月桂醇磷酸酯钾"/>
+        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#棕榈酸"/>
+        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#甘油"/>
+        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#甘油硬脂酸酯"/>
+        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#矿油"/>
+        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#矿脂"/>
+        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#硬脂酸甘油脂类"/>
+        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#羟苯丙酯"/>
+        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#羟苯甲脂"/>
+        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#聚丙烯酸胺"/>
+        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#肉豆蔻酸"/>
+        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#香精"/>
+        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#马脂"/>
+        <cn-medo:includes rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#鲸蜡硬脂醇"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#马脂 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#马脂">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#组分"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#鲸蜡硬脂醇 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#鲸蜡硬脂醇">
+        <rdf:type rdf:resource="http://www.semanticweb.org/yasen/ontologies/2024/3/cn-medo#组分"/>
     </owl:NamedIndividual>
     
 
@@ -5699,5 +5872,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
 
