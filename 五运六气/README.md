@@ -9,6 +9,7 @@
   - [Query 天干地支](#query-天干地支)
   - [添加 五行、五方、五季](#添加-五行五方五季)
   - [创建 十干五行配合 关系](#创建-十干五行配合-关系)
+  - [创建 十二支月建五行所属 关系](#创建-十二支月建五行所属-关系)
 
 ## Create `阴阳` node
 
@@ -172,3 +173,21 @@ RETURN t,p1,p2,p3,w1,w2,w3
 ```
 
 ![十干五行配合](img/十干五行配合.png)
+
+## 创建 十二支月建五行所属 关系
+
+```cypher
+// Load 十二支月建五行所属 CSV
+LOAD CSV WITH HEADERS FROM 'file:///d://Github//Chinese_Culture//五运六气//csv//十二支月建五行所属.csv' AS row
+MATCH (d:地支),(w:五行)
+WHERE d.name = row.`地支` AND w.name = row.`五行`
+SET d.monthNumber = row.`月份`, d.monthName = row.`月名`
+MERGE (d)-[s:属]->(w)
+RETURN d,s,w
+```
+
+![十二支月建五行所属](img/十二支月建五行所属.png)
+
+---
+
+Last updated at 12/5/2025, 8:26:37 PM 
