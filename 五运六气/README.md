@@ -2,7 +2,6 @@
 
 - [Create Graph for Chinese Tradition Culture](#create-graph-for-chinese-tradition-culture)
   - [Create `阴阳` node](#create-阴阳-node)
-  - [Create `五行` node](#create-五行-node)
   - [Add `天干` node](#add-天干-node)
   - [Add `地支` node](#add-地支-node)
   - [Refactor 天干地支 to Match 阴阳](#refactor-天干地支-to-match-阴阳)
@@ -17,10 +16,6 @@
 MERGE (y1:阴阳 {id:1, name:"阳"})
 MERGE (y2:阴阳 {id:2, name:"阴"})
 ```
-
-## Create `五行` node
-
-
 
 ## Add `天干` node
 
