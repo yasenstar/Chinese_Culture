@@ -3,6 +3,7 @@
 - [Create Graph for Chinese Tradition Culture](#create-graph-for-chinese-tradition-culture)
   - [Add `天干` node](#add-天干-node)
   - [Add `地支` node](#add-地支-node)
+  - [创建`甲子表`，建立天干与地支的关系`配`](#创建甲子表建立天干与地支的关系配)
 
 ## Add `天干` node
 
@@ -41,3 +42,20 @@ RETURN d
 ```
 
 ![地支](img/地支.png)
+
+## 创建`甲子表`，建立天干与地支的关系`配`
+
+```cypher
+// Load 甲子表 CSV
+LOAD CSV WITH HEADERS FROM 'file:///d://Github//Chinese_Culture//五运六气//csv//甲子表.csv' AS row
+MATCH (t:天干), (d:地支)
+WHERE t.name = row.`天干` AND d.name = row.`地支`
+MERGE (t)-[p:配 {id:row.`编号`}]->(d)
+ON CREATE SET
+  d.createAt = datetime()
+ON MATCH SET
+  d.lastUpdated = datetime()
+RETURN t,p,d
+```
+
+![甲子表](img/甲子表.png)
