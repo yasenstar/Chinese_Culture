@@ -11,7 +11,7 @@
   - [创建 十干五行配合 关系](#创建-十干五行配合-关系)
   - [创建 十二支月建五行所属 关系](#创建-十二支月建五行所属-关系)
   - [十干化运：对于天干到五行之配属关系，添加五行到天干之“主”关系](#十干化运对于天干到五行之配属关系添加五行到天干之主关系)
-  - [目前为止的schema](#目前为止的schema)
+  - [目前为止的schema (ver01)](#目前为止的schema-ver01)
 - [对“五运”建模](#对五运建模)
   - [对“五行”node添加“五运”Label](#对五行node添加五运label)
   - [十干化运](#十干化运)
@@ -20,6 +20,9 @@
   - [创建“十干化运”关系](#创建十干化运关系)
   - [十干化运的查询解释](#十干化运的查询解释)
   - [Schema So far (ver02)](#schema-so-far-ver02)
+  - [连接“五行”和“五运”，关系“对应”](#连接五行和五运关系对应)
+  - [创建“二十八宿”](#创建二十八宿)
+  - [Schema So Far (ver03)](#schema-so-far-ver03)
 - [Tool](#tool)
 
 ## Create `阴阳` node
@@ -209,7 +212,7 @@ RETURN t,r,w,z
 
 ![天干和五行](img/天干与五行.png)
 
-## 目前为止的schema
+## 目前为止的schema (ver01)
 
 ![schema01](img/schema01.png)
 
@@ -370,6 +373,52 @@ RETURN w1,r1,t,r2,y,w2,r3
 ## Schema So far (ver02)
 
 ![Schema02](img/schema02.png)
+
+## 连接“五行”和“五运”，关系“对应”
+
+```cypher
+// 对应“五行”和“五运”
+MATCH (x:`五行`),(y:`五运`)
+WHERE substring(x.name,0,1) = substring(y.name,0,1)
+MERGE (x)-[d1:对应]->(y)-[d2:对应]->(x)
+RETURN x,d1,d2,y
+```
+
+## 创建“二十八宿”
+
+```cypher
+// Load 二十八宿 CSV
+LOAD CSV WITH HEADERS FROM 'file:///d://Github//Chinese_Culture//五运六气//csv//二十八宿.csv' AS row
+MERGE (x:二十八宿 {id:row.编号, name:row.宿名})
+ON CREATE SET
+  x.天体方位 = row.天体方位,
+  x.角度 = row.角度,
+  x.角度起始 = row.角度起始,
+  x.角度截至 = row.角度截至,
+  x.createAt = datetime()
+ON MATCH SET
+  x.天体方位 = row.天体方位,
+  x.角度 = row.角度,
+  x.角度起始 = row.角度起始,
+  x.角度截至 = row.角度截至,
+  x.lastUpdated = datetime()
+RETURN x
+```
+
+建立与“五方”的关系：
+
+```cypher
+// Load 二十八宿 CSV
+LOAD CSV WITH HEADERS FROM 'file:///d://Github//Chinese_Culture//五运六气//csv//二十八宿.csv' AS row
+MATCH (w:五方), (x:二十八宿)
+WHERE x.name = row.宿名 AND w.name = row.五方
+MERGE (x)-[s:属]->(w)
+RETURN x,s,w
+```
+
+## Schema So Far (ver03)
+
+![schema03](img/schema03.png)
 
 ---
 
