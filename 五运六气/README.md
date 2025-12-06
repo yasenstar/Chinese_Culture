@@ -12,6 +12,11 @@
   - [创建 十二支月建五行所属 关系](#创建-十二支月建五行所属-关系)
   - [十干化运：对于天干到五行之配属关系，添加五行到天干之“主”关系](#十干化运对于天干到五行之配属关系添加五行到天干之主关系)
   - [目前为止的schema](#目前为止的schema)
+- [对“五运”建模](#对五运建模)
+  - [对“五行”node添加“五运”Label](#对五行node添加五运label)
+  - [十干化运](#十干化运)
+  - [Refactor 分开 五行 和 五运](#refactor-分开-五行-和-五运)
+- [Tool](#tool)
 
 ## Create `阴阳` node
 
@@ -194,7 +199,7 @@ RETURN d,s,w
 
 ```cypher
 MATCH (t:天干)-[r:配]->(w:五行)
-MERGE (w)-[z:主]->(t)
+MERGE (w)-[z:主 {source: "十二支月建五行所属"}]->(t)
 RETURN t,r,w,z
 ```
 
@@ -204,6 +209,92 @@ RETURN t,r,w,z
 
 ![schema01](img/schema01.png)
 
+# 对“五运”建模
+
+## 对“五行”node添加“五运”Label
+
+```cypher
+MATCH (w:五行)
+SET w:五运
+RETURN w
+```
+
+![五运](img/五运.png)
+
+## 十干化运
+
+素问五运行大论：“土主甲己，金主乙庚，水主丙辛，木主丁壬，火主戊癸。”
+
+```cypher
+// Load 十干化运 CSV
+LOAD CSV WITH HEADERS FROM 'file:///d://Github//Chinese_Culture//五运六气//csv//十干化运.csv' AS row
+MATCH (t:天干), (w:五运)
+WHERE t.name = row.`天干` AND w.name = row.`五运`
+MERGE (w)-[z:主 {source: "十干化运"}]->(t)
+RETURN w,z,t
+```
+
+Note: add "source" per relationship.
+
+使用下面的查询可以看到现在的关系“主”有不同的配合：
+
+```cypher
+MATCH p=()-[:`主`]->() RETURN p
+```
+
+![十干配运](img/十干配运.png)
+
+|m.name|n.name|z.source |
+|------|------|---------|
+|土     |戊     |十二支月建五行所属|
+|土     |己     |十二支月建五行所属|
+|土     |甲     |十干化运     |
+|土     |己     |十干化运     |
+|木     |甲     |十二支月建五行所属|
+|木     |乙     |十二支月建五行所属|
+|木     |丁     |十干化运     |
+|木     |壬     |十干化运     |
+|水     |壬     |十二支月建五行所属|
+|水     |癸     |十二支月建五行所属|
+|水     |丙     |十干化运     |
+|水     |辛     |十干化运     |
+|火     |丙     |十二支月建五行所属|
+|火     |丁     |十二支月建五行所属|
+|火     |戊     |十干化运     |
+|火     |癸     |十干化运     |
+|金     |庚     |十二支月建五行所属|
+|金     |辛     |十二支月建五行所属|
+|金     |乙     |十干化运     |
+|金     |庚     |十干化运     |
+
+## Refactor 分开 五行 和 五运
+
+```cypher
+// 从五行中删除“五运”标签
+MATCH (w:五运) REMOVE w:五运
+```
+
+再CSV源文件中区分五行和五运，如叫“土行”对应“土运”，重新运行“五行”，“五方”，“五季”创建语句，名称更新包含了后缀。
+
+![新五行](img/新五行.png)
+
+对如下“土行”与“天干”的“主”的关系，清除来自“十干化运”的链接，为后面建立“土运”的关系做准备：
+
+![土行的主](img/土行的主.png)
+
+```cypher
+MATCH (w:五行)-[z:主 {source: "十干化运"}]->(m)
+DELETE z
+```
+
+运行以后，“土行”的“主”关系为：
+
+![土行的主-新](img/土行的主-新.png)
+
 ---
+
+# Tool
+
+- [Convert CSV to Markdown Table](https://www.convertcsv.com/csv-to-markdown.htm)
 
 Last updated at 12/5/2025, 8:26:37 PM 
