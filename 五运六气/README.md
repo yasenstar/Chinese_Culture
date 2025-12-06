@@ -16,6 +16,9 @@
   - [对“五行”node添加“五运”Label](#对五行node添加五运label)
   - [十干化运](#十干化运)
   - [Refactor 分开 五行 和 五运](#refactor-分开-五行-和-五运)
+  - [创建“五运”Node，不是Label](#创建五运node不是label)
+  - [创建“十干化运”关系](#创建十干化运关系)
+  - [十干化运的查询解释](#十干化运的查询解释)
 - [Tool](#tool)
 
 ## Create `阴阳` node
@@ -290,6 +293,44 @@ DELETE z
 运行以后，“土行”的“主”关系为：
 
 ![土行的主-新](img/土行的主-新.png)
+
+## 创建“五运”Node，不是Label
+
+```cypher
+// Load 五运 CSV
+LOAD CSV WITH HEADERS FROM 'file:///d://Github//Chinese_Culture//五运六气//csv//五运.csv' AS row
+MERGE (w:五运 {id:row.`编号`, source: "五运.csv"})
+ON CREATE SET
+  w.name = row.`五运`,
+  w.createAt = datetime()
+ON MATCH SET
+  w.name = row.`五运`,
+  w.lastUpdated = datetime()
+RETURN w
+```
+
+## 创建“十干化运”关系
+
+```cypher
+// Load 十干化运 CSV
+LOAD CSV WITH HEADERS FROM 'file:///d://Github//Chinese_Culture//五运六气//csv//十干化运.csv' AS row
+MATCH (t:天干), (w:五运)
+WHERE t.name = row.`天干` AND w.name = row.`五运`
+MERGE (w)-[z:主 {source: "十干化运.csv"}]->(t)
+RETURN w,z,t
+```
+
+## 十干化运的查询解释
+
+```cypher
+MATCH (w1:五运 {name:"土运"})-[r1:主]->(t:天干)-[r2:属]->(y:阴阳)
+MATCH (w2:五行)-[r3:主]->(t)
+RETURN w1,r1,t,r2,y,w2,r3
+```
+
+![土运甲己](img/土运甲己.png)
+
+甲为木行的阳干，己为土行的阴干，甲己相合，化为五运的土运。
 
 ---
 
